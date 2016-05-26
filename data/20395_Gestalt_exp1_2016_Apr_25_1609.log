@@ -1,0 +1,2660 @@
+8.3537 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor instance at 0x7f0be7e7dc20>, name='window1', pos=[0, 0], screen=0, size=array([1920, 1080]), stereo=False, units='pix', useFBO=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.3538 	EXP 	window1: recordFrameIntervals = False
+8.5202 	EXP 	window1: recordFrameIntervals = True
+8.7031 	EXP 	window1: recordFrameIntervals = False
+8.8064 	EXP 	Created Instructions = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.075, italic=False, name='Instructions', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units='norm', win=Window(...), wrapWidth=1)
+8.8101 	EXP 	Created fixationcross = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='fixationcross', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=u'+', units='norm', win=Window(...), wrapWidth=1)
+8.8140 	EXP 	Created image = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 600.,  600.]), texRes=128, units='pix', win=Window(...))
+8.8147 	EXP 	window1: units = 'norm'
+8.8483 	EXP 	window1: units = 'pix'
+8.8484 	EXP 	Created rating = RatingScale(acceptKeys=['return'], acceptPreText=UNKNOWN, acceptSize=UNKNOWN, acceptText=u'accept?', autoLog=True, choices=False, depth=0, disappear=False, flipVert=False, high=9, kwargs=UNKNOWN, labels=list(...), leftKeys=['left'], lineColor='White', low=1, marker=ShapeStim(...), markerColor='DarkBlue', markerExpansion=UNKNOWN, markerStart=None, maxTime=0.0, minTime=0.4, mouseOnly=False, name='rating', noMouse=False, pos=[0.0, 0.0], precision=1, respKeys=['1', '2', '3', '4', '5', '6', '7', '8', '9'], rightKeys=['right'], scale=str(...), self=UNKNOWN, showAccept=True, showValue=True, singleClick=False, size=0.6, skipKeys=['tab'], stretch=1.0, textColor='LightGray', textFont='Helvetica Bold', textSize=0.12, tickHeight=1.0, tickMarks=8.0, win=Window(...))
+8.8949 	EXP 	Created instruct2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.075, italic=False, name='instruct2', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units='norm', win=Window(...), wrapWidth=1)
+8.8972 	EXP 	Created text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=40, italic=False, name='text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=u'+', units='pix', win=Window(...), wrapWidth=500)
+8.8995 	EXP 	Created Left = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Left', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 600.,  600.]), texRes=128, units='pix', win=Window(...))
+8.9014 	EXP 	Created Right = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Right', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 600.,  600.]), texRes=128, units='pix', win=Window(...))
+8.9143 	EXP 	Created feedback = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.075, italic=False, name='feedback', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units='norm', win=Window(...), wrapWidth=1)
+8.9204 	EXP 	rating: flipVert = False
+8.9204 	EXP 	rating: autoLog = True
+8.9204 	EXP 	Instructions: autoDraw = True
+73.0696 	DATA 	Keypress: space
+73.0721 	EXP 	Imported condAppreciation.csv as conditions, 83 conditions, 2 params
+73.0726 	EXP 	Created sequence: random, trialTypes=83, nReps=1, seed=None
+73.0730 	EXP 	New trial (rep=0, index=0): {'images': u'images/INVk05.bmp', 'condition': u'inverted'}
+73.0785 	EXP 	RatingScale rating: reset()
+73.0858 	EXP 	Instructions: autoDraw = False
+73.0858 	EXP 	image: image = u'images/INVk05.bmp'
+73.0858 	EXP 	fixationcross: autoDraw = True
+73.5860 	EXP 	fixationcross: autoDraw = False
+74.1028 	EXP 	image: autoDraw = True
+74.1860 	EXP 	image: autoDraw = False
+74.3027 	EXP 	rating: autoDraw = True
+79.2028 	DATA 	Mouse: Left button down, pos=(731,539)
+79.3200 	DATA 	Mouse:  Left button up, pos=(731,539)
+81.4055 	DATA 	Mouse: Left button down, pos=(993,448)
+81.5194 	DATA 	Mouse:  Left button up, pos=(993,448)
+81.9028 	DATA 	Mouse: Left button down, pos=(993,430)
+81.9050 	DATA 	RatingScale rating: (mouse response) rating=2
+81.9050 	DATA 	RatingScale rating: rating RT=7.619
+81.9050 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 4.918), (2, 7.619)]
+81.9206 	EXP 	New trial (rep=0, index=1): {'images': u'images/i30.bmp', 'condition': u'scrambled'}
+81.9268 	EXP 	RatingScale rating: reset()
+81.9358 	EXP 	fixationcross: autoDraw = False
+81.9358 	EXP 	image: autoDraw = False
+81.9358 	EXP 	rating: autoDraw = False
+81.9358 	EXP 	image: image = u'images/i30.bmp'
+81.9358 	EXP 	fixationcross: autoDraw = True
+82.0200 	DATA 	Mouse:  Left button up, pos=(993,430)
+82.4357 	EXP 	fixationcross: autoDraw = False
+82.9525 	EXP 	image: autoDraw = True
+83.0358 	EXP 	image: autoDraw = False
+83.1524 	EXP 	rating: autoDraw = True
+84.7027 	DATA 	Mouse: Left button down, pos=(753,541)
+84.8200 	DATA 	Mouse:  Left button up, pos=(753,541)
+87.9861 	DATA 	Mouse: Left button down, pos=(982,427)
+87.9882 	DATA 	RatingScale rating: (mouse response) rating=2
+87.9883 	DATA 	RatingScale rating: rating RT=4.852
+87.9883 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 1.568), (2, 4.852)]
+88.0033 	EXP 	New trial (rep=0, index=2): {'images': u'images/k21.bmp', 'condition': u'gestalt'}
+88.0093 	EXP 	RatingScale rating: reset()
+88.0199 	EXP 	fixationcross: autoDraw = False
+88.0199 	EXP 	image: autoDraw = False
+88.0199 	EXP 	rating: autoDraw = False
+88.0199 	EXP 	image: image = u'images/k21.bmp'
+88.0199 	EXP 	fixationcross: autoDraw = True
+88.1027 	DATA 	Mouse:  Left button up, pos=(982,427)
+88.5193 	EXP 	fixationcross: autoDraw = False
+89.0359 	EXP 	image: autoDraw = True
+89.1198 	EXP 	image: autoDraw = False
+89.2357 	EXP 	rating: autoDraw = True
+90.5358 	DATA 	Mouse: Left button down, pos=(810,539)
+90.6525 	DATA 	Mouse:  Left button up, pos=(810,539)
+90.9713 	DATA 	Mouse: Left button down, pos=(916,389)
+90.9879 	DATA 	RatingScale rating: (mouse response) rating=3
+90.9879 	DATA 	RatingScale rating: rating RT=1.768
+90.9879 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 1.317), (3, 1.768)]
+91.0033 	EXP 	New trial (rep=0, index=3): {'images': u'images/INVk14.bmp', 'condition': u'inverted'}
+91.0089 	EXP 	RatingScale rating: reset()
+91.0193 	EXP 	fixationcross: autoDraw = False
+91.0193 	EXP 	image: autoDraw = False
+91.0193 	EXP 	rating: autoDraw = False
+91.0193 	EXP 	image: image = u'images/INVk14.bmp'
+91.0193 	EXP 	fixationcross: autoDraw = True
+91.0859 	DATA 	Mouse:  Left button up, pos=(916,389)
+91.5198 	EXP 	fixationcross: autoDraw = False
+92.0358 	EXP 	image: autoDraw = True
+92.1198 	EXP 	image: autoDraw = False
+92.2357 	EXP 	rating: autoDraw = True
+93.5194 	DATA 	Mouse: Left button down, pos=(1015,553)
+93.6358 	DATA 	Mouse:  Left button up, pos=(1015,553)
+93.9358 	DATA 	Mouse: Left button down, pos=(1056,352)
+94.0047 	DATA 	Mouse:  Left button up, pos=(1056,352)
+94.2692 	DATA 	Mouse: Left button down, pos=(1048,408)
+94.2713 	DATA 	RatingScale rating: (mouse response) rating=6
+94.2713 	DATA 	RatingScale rating: rating RT=2.051
+94.2713 	DATA 	RatingScale rating: history=[(None, 0.0), (6, 1.3), (6, 2.051)]
+94.2864 	EXP 	New trial (rep=0, index=4): {'images': u'images/i28.bmp', 'condition': u'scrambled'}
+94.2916 	EXP 	RatingScale rating: reset()
+94.3026 	EXP 	fixationcross: autoDraw = False
+94.3026 	EXP 	image: autoDraw = False
+94.3026 	EXP 	rating: autoDraw = False
+94.3026 	EXP 	image: image = u'images/i28.bmp'
+94.3026 	EXP 	fixationcross: autoDraw = True
+94.3692 	DATA 	Mouse:  Left button up, pos=(1048,408)
+94.8026 	EXP 	fixationcross: autoDraw = False
+95.3193 	EXP 	image: autoDraw = True
+95.4026 	EXP 	image: autoDraw = False
+95.5198 	EXP 	rating: autoDraw = True
+96.5692 	DATA 	Mouse: Left button down, pos=(881,564)
+96.6692 	DATA 	Mouse:  Left button up, pos=(881,564)
+97.0693 	DATA 	Mouse: Left button down, pos=(933,406)
+97.0714 	DATA 	RatingScale rating: (mouse response) rating=4
+97.0714 	DATA 	RatingScale rating: rating RT=1.568
+97.0714 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 1.067), (4, 1.568)]
+97.0863 	EXP 	New trial (rep=0, index=5): {'images': u'images/k18.bmp', 'condition': u'gestalt'}
+97.0918 	EXP 	RatingScale rating: reset()
+97.1026 	EXP 	fixationcross: autoDraw = False
+97.1026 	EXP 	image: autoDraw = False
+97.1026 	EXP 	rating: autoDraw = False
+97.1026 	EXP 	image: image = u'images/k18.bmp'
+97.1026 	EXP 	fixationcross: autoDraw = True
+97.1692 	DATA 	Mouse:  Left button up, pos=(933,406)
+97.6031 	EXP 	fixationcross: autoDraw = False
+98.1199 	EXP 	image: autoDraw = True
+98.2026 	EXP 	image: autoDraw = False
+98.3198 	EXP 	rating: autoDraw = True
+99.8525 	DATA 	Mouse: Left button down, pos=(886,531)
+99.9711 	DATA 	Mouse:  Left button up, pos=(886,531)
+100.3027 	DATA 	Mouse: Left button down, pos=(901,418)
+100.3049 	DATA 	RatingScale rating: (mouse response) rating=4
+100.3049 	DATA 	RatingScale rating: rating RT=2.002
+100.3049 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 1.551), (4, 2.002)]
+100.3199 	EXP 	New trial (rep=0, index=6): {'images': u'images/k25.bmp', 'condition': u'gestalt'}
+100.3248 	EXP 	RatingScale rating: reset()
+100.3357 	EXP 	fixationcross: autoDraw = False
+100.3357 	EXP 	image: autoDraw = False
+100.3357 	EXP 	rating: autoDraw = False
+100.3357 	EXP 	image: image = u'images/k25.bmp'
+100.3357 	EXP 	fixationcross: autoDraw = True
+100.4194 	DATA 	Mouse:  Left button up, pos=(901,418)
+100.8357 	EXP 	fixationcross: autoDraw = False
+101.3523 	EXP 	image: autoDraw = True
+101.4357 	EXP 	image: autoDraw = False
+101.5524 	EXP 	rating: autoDraw = True
+102.4358 	DATA 	Mouse: Left button down, pos=(1079,562)
+102.5358 	DATA 	Mouse:  Left button up, pos=(1079,562)
+102.9858 	DATA 	Mouse: Left button down, pos=(1076,386)
+103.0692 	DATA 	Mouse:  Left button up, pos=(1076,386)
+103.3711 	DATA 	Mouse: Left button down, pos=(1076,407)
+103.3712 	DATA 	RatingScale rating: (mouse response) rating=7
+103.3712 	DATA 	RatingScale rating: rating RT=1.835
+103.3712 	DATA 	RatingScale rating: history=[(None, 0.0), (7, 0.901), (7, 1.835)]
+103.3865 	EXP 	New trial (rep=0, index=7): {'images': u'images/k26.bmp', 'condition': u'gestalt'}
+103.3921 	EXP 	RatingScale rating: reset()
+103.4026 	EXP 	fixationcross: autoDraw = False
+103.4026 	EXP 	image: autoDraw = False
+103.4026 	EXP 	rating: autoDraw = False
+103.4026 	EXP 	image: image = u'images/k26.bmp'
+103.4026 	EXP 	fixationcross: autoDraw = True
+103.4692 	DATA 	Mouse:  Left button up, pos=(1076,407)
+103.9026 	EXP 	fixationcross: autoDraw = False
+104.4198 	EXP 	image: autoDraw = True
+104.5026 	EXP 	image: autoDraw = False
+104.6192 	EXP 	rating: autoDraw = True
+106.2194 	DATA 	Mouse: Left button down, pos=(1078,542)
+106.3358 	DATA 	Mouse:  Left button up, pos=(1078,542)
+106.7358 	DATA 	Mouse: Left button down, pos=(1058,379)
+106.8358 	DATA 	Mouse:  Left button up, pos=(1058,379)
+107.1358 	DATA 	Mouse: Left button down, pos=(1056,396)
+107.1378 	DATA 	RatingScale rating: (mouse response) rating=7
+107.1378 	DATA 	RatingScale rating: rating RT=2.535
+107.1378 	DATA 	RatingScale rating: history=[(None, 0.0), (7, 1.618), (7, 2.535)]
+107.1529 	EXP 	New trial (rep=0, index=8): {'images': u'images/INVk18.bmp', 'condition': u'inverted'}
+107.1580 	EXP 	RatingScale rating: reset()
+107.1690 	EXP 	fixationcross: autoDraw = False
+107.1690 	EXP 	image: autoDraw = False
+107.1690 	EXP 	rating: autoDraw = False
+107.1690 	EXP 	image: image = u'images/INVk18.bmp'
+107.1690 	EXP 	fixationcross: autoDraw = True
+107.2358 	DATA 	Mouse:  Left button up, pos=(1056,396)
+107.6690 	EXP 	fixationcross: autoDraw = False
+108.1858 	EXP 	image: autoDraw = True
+108.2690 	EXP 	image: autoDraw = False
+108.3859 	EXP 	rating: autoDraw = True
+109.5027 	DATA 	Mouse: Left button down, pos=(788,539)
+109.6032 	DATA 	Mouse:  Left button up, pos=(788,539)
+110.1712 	DATA 	Mouse: Left button down, pos=(860,415)
+110.1713 	DATA 	RatingScale rating: (mouse response) rating=3
+110.1713 	DATA 	RatingScale rating: rating RT=1.802
+110.1713 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 1.135), (3, 1.802)]
+110.1865 	EXP 	New trial (rep=0, index=9): {'images': u'images/INVk29.bmp', 'condition': u'inverted'}
+110.1921 	EXP 	RatingScale rating: reset()
+110.2025 	EXP 	fixationcross: autoDraw = False
+110.2025 	EXP 	image: autoDraw = False
+110.2025 	EXP 	rating: autoDraw = False
+110.2025 	EXP 	image: image = u'images/INVk29.bmp'
+110.2025 	EXP 	fixationcross: autoDraw = True
+110.3027 	DATA 	Mouse:  Left button up, pos=(860,415)
+110.7025 	EXP 	fixationcross: autoDraw = False
+111.2198 	EXP 	image: autoDraw = True
+111.3031 	EXP 	image: autoDraw = False
+111.4192 	EXP 	rating: autoDraw = True
+112.6860 	DATA 	Mouse: Left button down, pos=(763,528)
+112.7691 	DATA 	Mouse:  Left button up, pos=(762,529)
+113.1711 	DATA 	Mouse: Left button down, pos=(889,416)
+113.1712 	DATA 	RatingScale rating: (mouse response) rating=2
+113.1712 	DATA 	RatingScale rating: rating RT=1.768
+113.1712 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 1.284), (2, 1.768)]
+113.1863 	EXP 	New trial (rep=0, index=10): {'images': u'images/i01.bmp', 'condition': u'scrambled'}
+113.1916 	EXP 	RatingScale rating: reset()
+113.2025 	EXP 	fixationcross: autoDraw = False
+113.2025 	EXP 	image: autoDraw = False
+113.2025 	EXP 	rating: autoDraw = False
+113.2025 	EXP 	image: image = u'images/i01.bmp'
+113.2025 	EXP 	fixationcross: autoDraw = True
+113.3026 	DATA 	Mouse:  Left button up, pos=(889,416)
+113.7025 	EXP 	fixationcross: autoDraw = False
+114.2195 	EXP 	image: autoDraw = True
+114.3025 	EXP 	image: autoDraw = False
+114.4197 	EXP 	rating: autoDraw = True
+115.9860 	DATA 	Mouse: Left button down, pos=(1018,545)
+116.0860 	DATA 	Mouse:  Left button up, pos=(1018,545)
+116.4691 	DATA 	Mouse: Left button down, pos=(1015,387)
+116.5523 	DATA 	Mouse:  Left button up, pos=(1015,387)
+117.3877 	DATA 	Mouse: Left button down, pos=(1015,407)
+117.3878 	DATA 	RatingScale rating: (mouse response) rating=6
+117.3878 	DATA 	RatingScale rating: rating RT=2.985
+117.3879 	DATA 	RatingScale rating: history=[(None, 0.0), (6, 1.584), (6, 2.985)]
+117.4031 	EXP 	New trial (rep=0, index=11): {'images': u'images/k24.bmp', 'condition': u'gestalt'}
+117.4087 	EXP 	RatingScale rating: reset()
+117.4192 	EXP 	fixationcross: autoDraw = False
+117.4192 	EXP 	image: autoDraw = False
+117.4192 	EXP 	rating: autoDraw = False
+117.4192 	EXP 	image: image = u'images/k24.bmp'
+117.4192 	EXP 	fixationcross: autoDraw = True
+117.4858 	DATA 	Mouse:  Left button up, pos=(1015,407)
+117.9197 	EXP 	fixationcross: autoDraw = False
+118.4357 	EXP 	image: autoDraw = True
+118.5197 	EXP 	image: autoDraw = False
+118.6356 	EXP 	rating: autoDraw = True
+123.2857 	DATA 	Mouse: Left button down, pos=(928,542)
+123.4026 	DATA 	Mouse:  Left button up, pos=(929,541)
+123.7357 	DATA 	Mouse: Left button down, pos=(949,397)
+123.7378 	DATA 	RatingScale rating: (mouse response) rating=5
+123.7378 	DATA 	RatingScale rating: rating RT=5.118
+123.7378 	DATA 	RatingScale rating: history=[(None, 0.0), (5, 4.667), (5, 5.118)]
+123.7529 	EXP 	New trial (rep=0, index=12): {'images': u'images/k30.bmp', 'condition': u'gestalt'}
+123.7581 	EXP 	RatingScale rating: reset()
+123.7690 	EXP 	fixationcross: autoDraw = False
+123.7690 	EXP 	image: autoDraw = False
+123.7690 	EXP 	rating: autoDraw = False
+123.7690 	EXP 	image: image = u'images/k30.bmp'
+123.7690 	EXP 	fixationcross: autoDraw = True
+123.8357 	DATA 	Mouse:  Left button up, pos=(949,397)
+124.2690 	EXP 	fixationcross: autoDraw = False
+124.7859 	EXP 	image: autoDraw = True
+124.8690 	EXP 	image: autoDraw = False
+124.9856 	EXP 	rating: autoDraw = True
+126.0026 	DATA 	Mouse: Left button down, pos=(987,564)
+126.1026 	DATA 	Mouse:  Left button up, pos=(987,564)
+126.5026 	DATA 	Mouse: Left button down, pos=(993,417)
+126.5048 	DATA 	RatingScale rating: (mouse response) rating=5
+126.5048 	DATA 	RatingScale rating: rating RT=1.536
+126.5048 	DATA 	RatingScale rating: history=[(None, 0.0), (5, 1.035), (5, 1.536)]
+126.5204 	EXP 	New trial (rep=0, index=13): {'images': u'images/INVk22.bmp', 'condition': u'inverted'}
+126.5265 	EXP 	RatingScale rating: reset()
+126.5356 	EXP 	fixationcross: autoDraw = False
+126.5356 	EXP 	image: autoDraw = False
+126.5356 	EXP 	rating: autoDraw = False
+126.5356 	EXP 	image: image = u'images/INVk22.bmp'
+126.5356 	EXP 	fixationcross: autoDraw = True
+126.6029 	DATA 	Mouse:  Left button up, pos=(993,417)
+127.0356 	EXP 	fixationcross: autoDraw = False
+127.5522 	EXP 	image: autoDraw = True
+127.6356 	EXP 	image: autoDraw = False
+127.7522 	EXP 	rating: autoDraw = True
+129.1692 	DATA 	Mouse: Left button down, pos=(855,539)
+129.2857 	DATA 	Mouse:  Left button up, pos=(855,539)
+129.6047 	DATA 	Mouse: Left button down, pos=(914,433)
+129.6048 	DATA 	RatingScale rating: (mouse response) rating=4
+129.6048 	DATA 	RatingScale rating: rating RT=1.869
+129.6048 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 1.435), (4, 1.869)]
+129.6203 	EXP 	New trial (rep=0, index=14): {'images': u'images/k27.bmp', 'condition': u'gestalt'}
+129.6261 	EXP 	RatingScale rating: reset()
+129.6356 	EXP 	fixationcross: autoDraw = False
+129.6356 	EXP 	image: autoDraw = False
+129.6356 	EXP 	rating: autoDraw = False
+129.6356 	EXP 	image: image = u'images/k27.bmp'
+129.6356 	EXP 	fixationcross: autoDraw = True
+129.7357 	DATA 	Mouse:  Left button up, pos=(914,433)
+130.1356 	EXP 	fixationcross: autoDraw = False
+130.6523 	EXP 	image: autoDraw = True
+130.7356 	EXP 	image: autoDraw = False
+130.8523 	EXP 	rating: autoDraw = True
+131.9356 	DATA 	Mouse: Left button down, pos=(822,552)
+132.0357 	DATA 	Mouse:  Left button up, pos=(822,552)
+132.3357 	DATA 	Mouse: Left button down, pos=(888,401)
+132.3377 	DATA 	RatingScale rating: (mouse response) rating=3
+132.3377 	DATA 	RatingScale rating: rating RT=1.502
+132.3378 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 1.101), (3, 1.502)]
+132.3529 	EXP 	New trial (rep=0, index=15): {'images': u'images/k28.bmp', 'condition': u'gestalt'}
+132.3581 	EXP 	RatingScale rating: reset()
+132.3689 	EXP 	fixationcross: autoDraw = False
+132.3689 	EXP 	image: autoDraw = False
+132.3689 	EXP 	rating: autoDraw = False
+132.3689 	EXP 	image: image = u'images/k28.bmp'
+132.3689 	EXP 	fixationcross: autoDraw = True
+132.4357 	DATA 	Mouse:  Left button up, pos=(888,401)
+132.8689 	EXP 	fixationcross: autoDraw = False
+133.3858 	EXP 	image: autoDraw = True
+133.4691 	EXP 	image: autoDraw = False
+133.5856 	EXP 	rating: autoDraw = True
+134.6026 	DATA 	Mouse: Left button down, pos=(1115,556)
+134.7026 	DATA 	Mouse:  Left button up, pos=(1115,556)
+135.1198 	DATA 	Mouse: Left button down, pos=(1075,398)
+135.1222 	DATA 	RatingScale rating: (mouse response) rating=7
+135.1222 	DATA 	RatingScale rating: rating RT=1.553
+135.1222 	DATA 	RatingScale rating: history=[(None, 0.0), (7, 1.035), (7, 1.553)]
+135.1362 	EXP 	New trial (rep=0, index=16): {'images': u'images/k12.bmp', 'condition': u'gestalt'}
+135.1415 	EXP 	RatingScale rating: reset()
+135.1522 	EXP 	fixationcross: autoDraw = False
+135.1522 	EXP 	image: autoDraw = False
+135.1522 	EXP 	rating: autoDraw = False
+135.1522 	EXP 	image: image = u'images/k12.bmp'
+135.1522 	EXP 	fixationcross: autoDraw = True
+135.2198 	DATA 	Mouse:  Left button up, pos=(1075,398)
+135.6522 	EXP 	fixationcross: autoDraw = False
+136.1689 	EXP 	image: autoDraw = True
+136.2522 	EXP 	image: autoDraw = False
+136.3689 	EXP 	rating: autoDraw = True
+137.6357 	DATA 	Mouse: Left button down, pos=(931,558)
+137.7523 	DATA 	Mouse:  Left button up, pos=(931,558)
+139.0859 	DATA 	Mouse: Left button down, pos=(790,548)
+139.1859 	DATA 	Mouse:  Left button up, pos=(790,548)
+139.5523 	DATA 	Mouse: Left button down, pos=(875,480)
+139.6193 	DATA 	Mouse:  Left button up, pos=(881,467)
+139.8046 	DATA 	Mouse: Left button down, pos=(918,421)
+139.8047 	DATA 	RatingScale rating: (mouse response) rating=3
+139.8047 	DATA 	RatingScale rating: rating RT=3.452
+139.8047 	DATA 	RatingScale rating: history=[(None, 0.0), (5, 1.284), (3, 2.736), (3, 3.452)]
+139.8198 	EXP 	New trial (rep=0, index=17): {'images': u'images/INVk28.bmp', 'condition': u'inverted'}
+139.8258 	EXP 	RatingScale rating: reset()
+139.8355 	EXP 	fixationcross: autoDraw = False
+139.8355 	EXP 	image: autoDraw = False
+139.8355 	EXP 	rating: autoDraw = False
+139.8355 	EXP 	image: image = u'images/INVk28.bmp'
+139.8355 	EXP 	fixationcross: autoDraw = True
+139.9025 	DATA 	Mouse:  Left button up, pos=(918,421)
+140.3355 	EXP 	fixationcross: autoDraw = False
+140.8523 	EXP 	image: autoDraw = True
+140.9355 	EXP 	image: autoDraw = False
+141.0522 	EXP 	rating: autoDraw = True
+142.8026 	DATA 	Mouse: Left button down, pos=(728,533)
+142.9031 	DATA 	Mouse:  Left button up, pos=(728,533)
+143.1856 	DATA 	Mouse: Left button down, pos=(953,421)
+143.1878 	DATA 	RatingScale rating: (mouse response) rating=2
+143.1878 	DATA 	RatingScale rating: rating RT=2.152
+143.1878 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 1.768), (2, 2.152)]
+143.2031 	EXP 	New trial (rep=0, index=18): {'images': u'images/i21.bmp', 'condition': u'scrambled'}
+143.2086 	EXP 	RatingScale rating: reset()
+143.2191 	EXP 	fixationcross: autoDraw = False
+143.2191 	EXP 	image: autoDraw = False
+143.2191 	EXP 	rating: autoDraw = False
+143.2191 	EXP 	image: image = u'images/i21.bmp'
+143.2191 	EXP 	fixationcross: autoDraw = True
+143.2859 	DATA 	Mouse:  Left button up, pos=(953,421)
+143.7196 	EXP 	fixationcross: autoDraw = False
+144.2356 	EXP 	image: autoDraw = True
+144.3196 	EXP 	image: autoDraw = False
+144.4356 	EXP 	rating: autoDraw = True
+145.1690 	DATA 	Mouse: Left button down, pos=(959,547)
+145.2523 	DATA 	Mouse:  Left button up, pos=(959,547)
+145.5025 	DATA 	Mouse: Left button down, pos=(961,401)
+145.5047 	DATA 	RatingScale rating: (mouse response) rating=5
+145.5047 	DATA 	RatingScale rating: rating RT=1.085
+145.5048 	DATA 	RatingScale rating: history=[(None, 0.0), (5, 0.75), (5, 1.085)]
+145.5197 	EXP 	New trial (rep=0, index=19): {'images': u'images/k17.bmp', 'condition': u'gestalt'}
+145.5253 	EXP 	RatingScale rating: reset()
+145.5355 	EXP 	fixationcross: autoDraw = False
+145.5355 	EXP 	image: autoDraw = False
+145.5355 	EXP 	rating: autoDraw = False
+145.5355 	EXP 	image: image = u'images/k17.bmp'
+145.5355 	EXP 	fixationcross: autoDraw = True
+145.6029 	DATA 	Mouse:  Left button up, pos=(961,401)
+146.0355 	EXP 	fixationcross: autoDraw = False
+146.5521 	EXP 	image: autoDraw = True
+146.6355 	EXP 	image: autoDraw = False
+146.7522 	EXP 	rating: autoDraw = True
+148.0197 	DATA 	Mouse: Left button down, pos=(989,539)
+148.1356 	DATA 	Mouse:  Left button up, pos=(989,539)
+148.4197 	DATA 	Mouse: Left button down, pos=(1006,350)
+148.5197 	DATA 	Mouse:  Left button up, pos=(1006,350)
+148.7690 	DATA 	Mouse: Left button down, pos=(1008,414)
+148.7712 	DATA 	RatingScale rating: (mouse response) rating=5
+148.7712 	DATA 	RatingScale rating: rating RT=2.035
+148.7712 	DATA 	RatingScale rating: history=[(None, 0.0), (5, 1.285), (5, 2.035)]
+148.7864 	EXP 	New trial (rep=0, index=20): {'images': u'images/i25.bmp', 'condition': u'scrambled'}
+148.7919 	EXP 	RatingScale rating: reset()
+148.8026 	EXP 	fixationcross: autoDraw = False
+148.8026 	EXP 	image: autoDraw = False
+148.8026 	EXP 	rating: autoDraw = False
+148.8026 	EXP 	image: image = u'images/i25.bmp'
+148.8026 	EXP 	fixationcross: autoDraw = True
+148.8521 	DATA 	Mouse:  Left button up, pos=(1008,414)
+149.3024 	EXP 	fixationcross: autoDraw = False
+149.8191 	EXP 	image: autoDraw = True
+149.9024 	EXP 	image: autoDraw = False
+150.0190 	EXP 	rating: autoDraw = True
+150.9523 	DATA 	Mouse: Left button down, pos=(816,535)
+151.0523 	DATA 	Mouse:  Left button up, pos=(816,535)
+151.3198 	DATA 	Mouse: Left button down, pos=(884,416)
+151.3222 	DATA 	RatingScale rating: (mouse response) rating=3
+151.3222 	DATA 	RatingScale rating: rating RT=1.320
+151.3222 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 0.951), (3, 1.32)]
+151.3362 	EXP 	New trial (rep=0, index=21): {'images': u'images/i24.bmp', 'condition': u'scrambled'}
+151.3414 	EXP 	RatingScale rating: reset()
+151.3522 	EXP 	fixationcross: autoDraw = False
+151.3522 	EXP 	image: autoDraw = False
+151.3522 	EXP 	rating: autoDraw = False
+151.3522 	EXP 	image: image = u'images/i24.bmp'
+151.3522 	EXP 	fixationcross: autoDraw = True
+151.4197 	DATA 	Mouse:  Left button up, pos=(884,416)
+151.8522 	EXP 	fixationcross: autoDraw = False
+152.3689 	EXP 	image: autoDraw = True
+152.4521 	EXP 	image: autoDraw = False
+152.5688 	EXP 	rating: autoDraw = True
+153.7197 	DATA 	Mouse: Left button down, pos=(764,539)
+153.8197 	DATA 	Mouse:  Left button up, pos=(764,539)
+154.0522 	DATA 	Mouse: Left button down, pos=(839,418)
+154.0543 	DATA 	RatingScale rating: (mouse response) rating=2
+154.0543 	DATA 	RatingScale rating: rating RT=1.502
+154.0543 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 1.169), (2, 1.502)]
+154.0694 	EXP 	New trial (rep=0, index=22): {'images': u'images/k15.bmp', 'condition': u'gestalt'}
+154.0747 	EXP 	RatingScale rating: reset()
+154.0855 	EXP 	fixationcross: autoDraw = False
+154.0855 	EXP 	image: autoDraw = False
+154.0855 	EXP 	rating: autoDraw = False
+154.0855 	EXP 	image: image = u'images/k15.bmp'
+154.0855 	EXP 	fixationcross: autoDraw = True
+154.1522 	DATA 	Mouse:  Left button up, pos=(839,418)
+154.5857 	EXP 	fixationcross: autoDraw = False
+155.1024 	EXP 	image: autoDraw = True
+155.1855 	EXP 	image: autoDraw = False
+155.3024 	EXP 	rating: autoDraw = True
+156.1356 	DATA 	Mouse: Left button down, pos=(751,547)
+156.2045 	DATA 	Mouse:  Left button up, pos=(751,547)
+156.4197 	DATA 	Mouse: Left button down, pos=(901,365)
+156.5197 	DATA 	Mouse:  Left button up, pos=(901,365)
+156.7356 	DATA 	Mouse: Left button down, pos=(911,409)
+156.7376 	DATA 	RatingScale rating: (mouse response) rating=2
+156.7376 	DATA 	RatingScale rating: rating RT=1.452
+156.7376 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 0.851), (2, 1.452)]
+156.7527 	EXP 	New trial (rep=0, index=23): {'images': u'images/i02.bmp', 'condition': u'scrambled'}
+156.7578 	EXP 	RatingScale rating: reset()
+156.7688 	EXP 	fixationcross: autoDraw = False
+156.7688 	EXP 	image: autoDraw = False
+156.7688 	EXP 	rating: autoDraw = False
+156.7688 	EXP 	image: image = u'images/i02.bmp'
+156.7688 	EXP 	fixationcross: autoDraw = True
+156.8191 	DATA 	Mouse:  Left button up, pos=(911,409)
+157.2688 	EXP 	fixationcross: autoDraw = False
+157.7857 	EXP 	image: autoDraw = True
+157.8688 	EXP 	image: autoDraw = False
+157.9857 	EXP 	rating: autoDraw = True
+158.7197 	DATA 	Mouse: Left button down, pos=(759,556)
+158.8197 	DATA 	Mouse:  Left button up, pos=(759,556)
+159.1856 	DATA 	Mouse: Left button down, pos=(868,463)
+159.2689 	DATA 	Mouse:  Left button up, pos=(873,457)
+159.4857 	DATA 	Mouse: Left button down, pos=(930,428)
+159.4879 	DATA 	RatingScale rating: (mouse response) rating=2
+159.4879 	DATA 	RatingScale rating: rating RT=1.519
+159.4879 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 0.752), (2, 1.519)]
+159.5030 	EXP 	New trial (rep=0, index=24): {'images': u'images/k20.bmp', 'condition': u'gestalt'}
+159.5085 	EXP 	RatingScale rating: reset()
+159.5195 	EXP 	fixationcross: autoDraw = False
+159.5195 	EXP 	image: autoDraw = False
+159.5195 	EXP 	rating: autoDraw = False
+159.5195 	EXP 	image: image = u'images/k20.bmp'
+159.5195 	EXP 	fixationcross: autoDraw = True
+159.5689 	DATA 	Mouse:  Left button up, pos=(930,427)
+160.0190 	EXP 	fixationcross: autoDraw = False
+160.5355 	EXP 	image: autoDraw = True
+160.6195 	EXP 	image: autoDraw = False
+160.7355 	EXP 	rating: autoDraw = True
+161.4689 	DATA 	Mouse: Left button down, pos=(860,553)
+161.5522 	DATA 	Mouse:  Left button up, pos=(860,553)
+161.8689 	DATA 	Mouse: Left button down, pos=(921,407)
+161.8710 	DATA 	RatingScale rating: (mouse response) rating=4
+161.8710 	DATA 	RatingScale rating: rating RT=1.151
+161.8710 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 0.75), (4, 1.151)]
+161.8861 	EXP 	New trial (rep=0, index=25): {'images': u'images/INVk10.bmp', 'condition': u'inverted'}
+161.8915 	EXP 	RatingScale rating: reset()
+161.9023 	EXP 	fixationcross: autoDraw = False
+161.9023 	EXP 	image: autoDraw = False
+161.9023 	EXP 	rating: autoDraw = False
+161.9023 	EXP 	image: image = u'images/INVk10.bmp'
+161.9023 	EXP 	fixationcross: autoDraw = True
+161.9856 	DATA 	Mouse:  Left button up, pos=(921,407)
+162.4023 	EXP 	fixationcross: autoDraw = False
+162.9196 	EXP 	image: autoDraw = True
+163.0023 	EXP 	image: autoDraw = False
+163.1195 	EXP 	rating: autoDraw = True
+164.0197 	DATA 	Mouse: Left button down, pos=(957,568)
+164.1355 	DATA 	Mouse:  Left button up, pos=(957,568)
+164.3689 	DATA 	Mouse: Left button down, pos=(973,443)
+164.4375 	DATA 	RatingScale rating: (mouse response) rating=5
+164.4375 	DATA 	RatingScale rating: rating RT=1.335
+164.4376 	DATA 	RatingScale rating: history=[(None, 0.0), (5, 0.918), (5, 1.335)]
+164.4526 	EXP 	New trial (rep=0, index=26): {'images': u'images/i15.bmp', 'condition': u'scrambled'}
+164.4579 	EXP 	RatingScale rating: reset()
+164.4688 	EXP 	fixationcross: autoDraw = False
+164.4688 	EXP 	image: autoDraw = False
+164.4688 	EXP 	rating: autoDraw = False
+164.4688 	EXP 	image: image = u'images/i15.bmp'
+164.4688 	EXP 	fixationcross: autoDraw = True
+164.4689 	DATA 	Mouse:  Left button up, pos=(973,440)
+164.9688 	EXP 	fixationcross: autoDraw = False
+165.4857 	EXP 	image: autoDraw = True
+165.5688 	EXP 	image: autoDraw = False
+165.6856 	EXP 	rating: autoDraw = True
+166.3522 	DATA 	Mouse: Left button down, pos=(907,521)
+166.4689 	DATA 	Mouse:  Left button up, pos=(907,521)
+166.6689 	DATA 	Mouse: Left button down, pos=(929,382)
+166.7711 	DATA 	Mouse:  Left button up, pos=(929,382)
+167.0689 	DATA 	Mouse: Left button down, pos=(929,408)
+167.0710 	DATA 	RatingScale rating: (mouse response) rating=4
+167.0710 	DATA 	RatingScale rating: rating RT=1.402
+167.0710 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 0.684), (4, 1.402)]
+167.0860 	EXP 	New trial (rep=0, index=27): {'images': u'images/i05.bmp', 'condition': u'scrambled'}
+167.0918 	EXP 	RatingScale rating: reset()
+167.1023 	EXP 	fixationcross: autoDraw = False
+167.1023 	EXP 	image: autoDraw = False
+167.1023 	EXP 	rating: autoDraw = False
+167.1023 	EXP 	image: image = u'images/i05.bmp'
+167.1023 	EXP 	fixationcross: autoDraw = True
+167.1689 	DATA 	Mouse:  Left button up, pos=(929,408)
+167.6027 	EXP 	fixationcross: autoDraw = False
+168.1195 	EXP 	image: autoDraw = True
+168.2023 	EXP 	image: autoDraw = False
+168.3195 	EXP 	rating: autoDraw = True
+169.0858 	DATA 	Mouse: Left button down, pos=(862,548)
+169.1708 	DATA 	Mouse:  Left button up, pos=(862,548)
+169.6522 	DATA 	Mouse: Left button down, pos=(914,389)
+169.6543 	DATA 	RatingScale rating: (mouse response) rating=4
+169.6543 	DATA 	RatingScale rating: rating RT=1.352
+169.6543 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 0.784), (4, 1.352)]
+169.6694 	EXP 	New trial (rep=0, index=28): {'images': u'images/i29.bmp', 'condition': u'scrambled'}
+169.6747 	EXP 	RatingScale rating: reset()
+169.6854 	EXP 	fixationcross: autoDraw = False
+169.6854 	EXP 	image: autoDraw = False
+169.6854 	EXP 	rating: autoDraw = False
+169.6854 	EXP 	image: image = u'images/i29.bmp'
+169.6854 	EXP 	fixationcross: autoDraw = True
+169.7522 	DATA 	Mouse:  Left button up, pos=(914,389)
+170.1856 	EXP 	fixationcross: autoDraw = False
+170.7023 	EXP 	image: autoDraw = True
+170.7856 	EXP 	image: autoDraw = False
+170.9023 	EXP 	rating: autoDraw = True
+171.6522 	DATA 	Mouse: Left button down, pos=(824,541)
+171.7522 	DATA 	Mouse:  Left button up, pos=(824,541)
+171.9708 	DATA 	Mouse: Left button down, pos=(927,380)
+172.0855 	DATA 	Mouse:  Left button up, pos=(927,380)
+172.3196 	DATA 	Mouse: Left button down, pos=(935,404)
+172.3220 	DATA 	RatingScale rating: (mouse response) rating=3
+172.3221 	DATA 	RatingScale rating: rating RT=1.436
+172.3221 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 0.767), (3, 1.436)]
+172.3360 	EXP 	New trial (rep=0, index=29): {'images': u'images/i13.bmp', 'condition': u'scrambled'}
+172.3411 	EXP 	RatingScale rating: reset()
+172.3521 	EXP 	fixationcross: autoDraw = False
+172.3521 	EXP 	image: autoDraw = False
+172.3521 	EXP 	rating: autoDraw = False
+172.3521 	EXP 	image: image = u'images/i13.bmp'
+172.3521 	EXP 	fixationcross: autoDraw = True
+172.4024 	DATA 	Mouse:  Left button up, pos=(935,404)
+172.8520 	EXP 	fixationcross: autoDraw = False
+173.3688 	EXP 	image: autoDraw = True
+173.4521 	EXP 	image: autoDraw = False
+173.5689 	EXP 	rating: autoDraw = True
+174.3689 	DATA 	Mouse: Left button down, pos=(1026,558)
+174.4690 	DATA 	Mouse:  Left button up, pos=(1026,558)
+174.7191 	DATA 	Mouse: Left button down, pos=(1025,404)
+174.7213 	DATA 	RatingScale rating: (mouse response) rating=6
+174.7213 	DATA 	RatingScale rating: rating RT=1.169
+174.7214 	DATA 	RatingScale rating: history=[(None, 0.0), (6, 0.818), (6, 1.169)]
+174.7360 	EXP 	New trial (rep=0, index=30): {'images': u'images/k16.bmp', 'condition': u'gestalt'}
+174.7414 	EXP 	RatingScale rating: reset()
+174.7520 	EXP 	fixationcross: autoDraw = False
+174.7520 	EXP 	image: autoDraw = False
+174.7520 	EXP 	rating: autoDraw = False
+174.7520 	EXP 	image: image = u'images/k16.bmp'
+174.7520 	EXP 	fixationcross: autoDraw = True
+174.8355 	DATA 	Mouse:  Left button up, pos=(1025,404)
+175.2521 	EXP 	fixationcross: autoDraw = False
+175.7688 	EXP 	image: autoDraw = True
+175.8521 	EXP 	image: autoDraw = False
+175.9687 	EXP 	rating: autoDraw = True
+176.7857 	DATA 	Mouse: Left button down, pos=(853,526)
+176.8858 	DATA 	Mouse:  Left button up, pos=(853,526)
+177.1689 	DATA 	Mouse: Left button down, pos=(864,439)
+177.1710 	DATA 	RatingScale rating: (mouse response) rating=4
+177.1710 	DATA 	RatingScale rating: rating RT=1.219
+177.1710 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 0.835), (4, 1.219)]
+177.1860 	EXP 	New trial (rep=0, index=31): {'images': u'images/k07.bmp', 'condition': u'gestalt'}
+177.1912 	EXP 	RatingScale rating: reset()
+177.2023 	EXP 	fixationcross: autoDraw = False
+177.2023 	EXP 	image: autoDraw = False
+177.2023 	EXP 	rating: autoDraw = False
+177.2023 	EXP 	image: image = u'images/k07.bmp'
+177.2023 	EXP 	fixationcross: autoDraw = True
+177.2689 	DATA 	Mouse:  Left button up, pos=(864,433)
+177.7022 	EXP 	fixationcross: autoDraw = False
+178.2190 	EXP 	image: autoDraw = True
+178.3023 	EXP 	image: autoDraw = False
+178.4194 	EXP 	rating: autoDraw = True
+179.1688 	DATA 	Mouse: Left button down, pos=(873,565)
+179.2688 	DATA 	Mouse:  Left button up, pos=(873,565)
+179.5355 	DATA 	Mouse: Left button down, pos=(922,411)
+179.5376 	DATA 	RatingScale rating: (mouse response) rating=4
+179.5376 	DATA 	RatingScale rating: rating RT=1.135
+179.5376 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 0.767), (4, 1.135)]
+179.5527 	EXP 	New trial (rep=0, index=32): {'images': u'images/i09.bmp', 'condition': u'scrambled'}
+179.5578 	EXP 	RatingScale rating: reset()
+179.5689 	EXP 	fixationcross: autoDraw = False
+179.5689 	EXP 	image: autoDraw = False
+179.5689 	EXP 	rating: autoDraw = False
+179.5689 	EXP 	image: image = u'images/i09.bmp'
+179.5689 	EXP 	fixationcross: autoDraw = True
+179.6196 	DATA 	Mouse:  Left button up, pos=(922,411)
+180.0687 	EXP 	fixationcross: autoDraw = False
+180.5854 	EXP 	image: autoDraw = True
+180.6687 	EXP 	image: autoDraw = False
+180.7854 	EXP 	rating: autoDraw = True
+181.6856 	DATA 	Mouse: Left button down, pos=(866,543)
+181.7688 	DATA 	Mouse:  Left button up, pos=(866,543)
+181.9689 	DATA 	Mouse: Left button down, pos=(905,370)
+182.0689 	DATA 	Mouse:  Left button up, pos=(905,370)
+182.3355 	DATA 	Mouse: Left button down, pos=(912,390)
+182.3375 	DATA 	RatingScale rating: (mouse response) rating=4
+182.3375 	DATA 	RatingScale rating: rating RT=1.568
+182.3376 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 0.918), (4, 1.568)]
+182.3526 	EXP 	New trial (rep=0, index=33): {'images': u'images/i12.bmp', 'condition': u'scrambled'}
+182.3577 	EXP 	RatingScale rating: reset()
+182.3687 	EXP 	fixationcross: autoDraw = False
+182.3687 	EXP 	image: autoDraw = False
+182.3687 	EXP 	rating: autoDraw = False
+182.3687 	EXP 	image: image = u'images/i12.bmp'
+182.3687 	EXP 	fixationcross: autoDraw = True
+182.4190 	DATA 	Mouse:  Left button up, pos=(912,390)
+182.8687 	EXP 	fixationcross: autoDraw = False
+183.3856 	EXP 	image: autoDraw = True
+183.4687 	EXP 	image: autoDraw = False
+183.5856 	EXP 	rating: autoDraw = True
+184.1355 	DATA 	Mouse: Left button down, pos=(868,524)
+184.2191 	DATA 	Mouse:  Left button up, pos=(868,524)
+184.4857 	DATA 	Mouse: Left button down, pos=(900,358)
+184.5857 	DATA 	Mouse:  Left button up, pos=(900,358)
+184.8689 	DATA 	Mouse: Left button down, pos=(913,390)
+184.8710 	DATA 	RatingScale rating: (mouse response) rating=4
+184.8710 	DATA 	RatingScale rating: rating RT=1.302
+184.8710 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 0.567), (4, 1.302)]
+184.8862 	EXP 	New trial (rep=0, index=34): {'images': u'images/k04.bmp', 'condition': u'gestalt'}
+184.8916 	EXP 	RatingScale rating: reset()
+184.9022 	EXP 	fixationcross: autoDraw = False
+184.9022 	EXP 	image: autoDraw = False
+184.9022 	EXP 	rating: autoDraw = False
+184.9022 	EXP 	image: image = u'images/k04.bmp'
+184.9022 	EXP 	fixationcross: autoDraw = True
+184.9855 	DATA 	Mouse:  Left button up, pos=(913,390)
+185.4022 	EXP 	fixationcross: autoDraw = False
+185.9190 	EXP 	image: autoDraw = True
+186.0023 	EXP 	image: autoDraw = False
+186.1194 	EXP 	rating: autoDraw = True
+186.8024 	DATA 	Mouse: Left button down, pos=(1154,551)
+186.9023 	DATA 	Mouse:  Left button up, pos=(1154,551)
+187.2196 	DATA 	Mouse: Left button down, pos=(1097,391)
+187.2220 	DATA 	RatingScale rating: (mouse response) rating=8
+187.2220 	DATA 	RatingScale rating: rating RT=1.119
+187.2220 	DATA 	RatingScale rating: history=[(None, 0.0), (8, 0.701), (8, 1.119)]
+187.2360 	EXP 	New trial (rep=0, index=35): {'images': u'images/INVk12.bmp', 'condition': u'inverted'}
+187.2413 	EXP 	RatingScale rating: reset()
+187.2520 	EXP 	fixationcross: autoDraw = False
+187.2520 	EXP 	image: autoDraw = False
+187.2520 	EXP 	rating: autoDraw = False
+187.2520 	EXP 	image: image = u'images/INVk12.bmp'
+187.2520 	EXP 	fixationcross: autoDraw = True
+187.3196 	DATA 	Mouse:  Left button up, pos=(1097,391)
+187.7520 	EXP 	fixationcross: autoDraw = False
+188.2687 	EXP 	image: autoDraw = True
+188.3520 	EXP 	image: autoDraw = False
+188.4687 	EXP 	rating: autoDraw = True
+189.0195 	DATA 	Mouse: Left button down, pos=(1103,549)
+189.1190 	DATA 	Mouse:  Left button up, pos=(1103,549)
+189.4023 	DATA 	Mouse: Left button down, pos=(1051,363)
+189.5195 	DATA 	Mouse:  Left button up, pos=(1051,363)
+189.7355 	DATA 	Mouse: Left button down, pos=(1047,384)
+189.8027 	DATA 	Mouse:  Left button up, pos=(1047,384)
+190.2354 	DATA 	Mouse: Left button down, pos=(1047,404)
+190.2375 	DATA 	RatingScale rating: (mouse response) rating=7
+190.2375 	DATA 	RatingScale rating: rating RT=1.785
+190.2375 	DATA 	RatingScale rating: history=[(None, 0.0), (7, 0.569), (7, 1.785)]
+190.2526 	EXP 	New trial (rep=0, index=36): {'images': u'images/i03.bmp', 'condition': u'scrambled'}
+190.2579 	EXP 	RatingScale rating: reset()
+190.2687 	EXP 	fixationcross: autoDraw = False
+190.2687 	EXP 	image: autoDraw = False
+190.2687 	EXP 	rating: autoDraw = False
+190.2687 	EXP 	image: image = u'images/i03.bmp'
+190.2687 	EXP 	fixationcross: autoDraw = True
+190.3521 	DATA 	Mouse:  Left button up, pos=(1047,404)
+190.7687 	EXP 	fixationcross: autoDraw = False
+191.2856 	EXP 	image: autoDraw = True
+191.3687 	EXP 	image: autoDraw = False
+191.4855 	EXP 	rating: autoDraw = True
+192.2354 	DATA 	Mouse: Left button down, pos=(743,541)
+192.3195 	DATA 	Mouse:  Left button up, pos=(743,541)
+192.5520 	DATA 	Mouse: Left button down, pos=(862,420)
+192.5541 	DATA 	RatingScale rating: (mouse response) rating=2
+192.5541 	DATA 	RatingScale rating: rating RT=1.085
+192.5542 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 0.768), (2, 1.085)]
+192.5693 	EXP 	New trial (rep=0, index=37): {'images': u'images/i06.bmp', 'condition': u'scrambled'}
+192.5748 	EXP 	RatingScale rating: reset()
+192.5853 	EXP 	fixationcross: autoDraw = False
+192.5853 	EXP 	image: autoDraw = False
+192.5853 	EXP 	rating: autoDraw = False
+192.5853 	EXP 	image: image = u'images/i06.bmp'
+192.5853 	EXP 	fixationcross: autoDraw = True
+192.6688 	DATA 	Mouse:  Left button up, pos=(864,420)
+193.0855 	EXP 	fixationcross: autoDraw = False
+193.6023 	EXP 	image: autoDraw = True
+193.6855 	EXP 	image: autoDraw = False
+193.8022 	EXP 	rating: autoDraw = True
+194.4354 	DATA 	Mouse: Left button down, pos=(819,531)
+194.5354 	DATA 	Mouse:  Left button up, pos=(819,531)
+194.7521 	DATA 	Mouse: Left button down, pos=(863,400)
+194.7542 	DATA 	RatingScale rating: (mouse response) rating=3
+194.7542 	DATA 	RatingScale rating: rating RT=0.968
+194.7542 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 0.651), (3, 0.968)]
+194.7693 	EXP 	New trial (rep=0, index=38): {'images': u'images/i07.bmp', 'condition': u'scrambled'}
+194.7744 	EXP 	RatingScale rating: reset()
+194.7856 	EXP 	fixationcross: autoDraw = False
+194.7856 	EXP 	image: autoDraw = False
+194.7856 	EXP 	rating: autoDraw = False
+194.7856 	EXP 	image: image = u'images/i07.bmp'
+194.7856 	EXP 	fixationcross: autoDraw = True
+194.8354 	DATA 	Mouse:  Left button up, pos=(863,400)
+195.2853 	EXP 	fixationcross: autoDraw = False
+195.8028 	EXP 	image: autoDraw = True
+195.8854 	EXP 	image: autoDraw = False
+196.0022 	EXP 	rating: autoDraw = True
+196.6690 	DATA 	Mouse: Left button down, pos=(883,520)
+196.7688 	DATA 	Mouse:  Left button up, pos=(883,520)
+196.9708 	DATA 	Mouse: Left button down, pos=(901,400)
+196.9710 	DATA 	RatingScale rating: (mouse response) rating=4
+196.9710 	DATA 	RatingScale rating: rating RT=0.985
+196.9710 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 0.685), (4, 0.985)]
+196.9860 	EXP 	New trial (rep=0, index=39): {'images': u'images/k09.bmp', 'condition': u'gestalt'}
+196.9916 	EXP 	RatingScale rating: reset()
+197.0022 	EXP 	fixationcross: autoDraw = False
+197.0022 	EXP 	image: autoDraw = False
+197.0022 	EXP 	rating: autoDraw = False
+197.0022 	EXP 	image: image = u'images/k09.bmp'
+197.0022 	EXP 	fixationcross: autoDraw = True
+197.1023 	DATA 	Mouse:  Left button up, pos=(901,400)
+197.5026 	EXP 	fixationcross: autoDraw = False
+198.0194 	EXP 	image: autoDraw = True
+198.1022 	EXP 	image: autoDraw = False
+198.2194 	EXP 	rating: autoDraw = True
+198.8034 	DATA 	Mouse: Left button down, pos=(1148,547)
+198.9195 	DATA 	Mouse:  Left button up, pos=(1148,547)
+199.2854 	DATA 	Mouse: Left button down, pos=(1110,405)
+199.2875 	DATA 	RatingScale rating: (mouse response) rating=8
+199.2875 	DATA 	RatingScale rating: rating RT=1.085
+199.2876 	DATA 	RatingScale rating: history=[(None, 0.0), (8, 0.601), (8, 1.085)]
+199.3028 	EXP 	New trial (rep=0, index=40): {'images': u'images/INVk25.bmp', 'condition': u'inverted'}
+199.3090 	EXP 	RatingScale rating: reset()
+199.3189 	EXP 	fixationcross: autoDraw = False
+199.3189 	EXP 	image: autoDraw = False
+199.3189 	EXP 	rating: autoDraw = False
+199.3189 	EXP 	image: image = u'images/INVk25.bmp'
+199.3189 	EXP 	fixationcross: autoDraw = True
+199.3854 	DATA 	Mouse:  Left button up, pos=(1110,405)
+199.8194 	EXP 	fixationcross: autoDraw = False
+200.3353 	EXP 	image: autoDraw = True
+200.4188 	EXP 	image: autoDraw = False
+200.5353 	EXP 	rating: autoDraw = True
+201.2354 	DATA 	Mouse: Left button down, pos=(1074,550)
+201.3354 	DATA 	Mouse:  Left button up, pos=(1074,550)
+201.5856 	DATA 	Mouse: Left button down, pos=(1080,405)
+201.5878 	DATA 	RatingScale rating: (mouse response) rating=7
+201.5879 	DATA 	RatingScale rating: rating RT=1.068
+201.5879 	DATA 	RatingScale rating: history=[(None, 0.0), (7, 0.717), (7, 1.068)]
+201.6028 	EXP 	New trial (rep=0, index=41): {'images': u'images/INVk16.bmp', 'condition': u'inverted'}
+201.6086 	EXP 	RatingScale rating: reset()
+201.6194 	EXP 	fixationcross: autoDraw = False
+201.6194 	EXP 	image: autoDraw = False
+201.6194 	EXP 	rating: autoDraw = False
+201.6194 	EXP 	image: image = u'images/INVk16.bmp'
+201.6194 	EXP 	fixationcross: autoDraw = True
+201.6856 	DATA 	Mouse:  Left button up, pos=(1080,405)
+202.1188 	EXP 	fixationcross: autoDraw = False
+202.6353 	EXP 	image: autoDraw = True
+202.7189 	EXP 	image: autoDraw = False
+202.8353 	EXP 	rating: autoDraw = True
+203.8520 	DATA 	Mouse: Left button down, pos=(907,535)
+203.9521 	DATA 	Mouse:  Left button up, pos=(907,535)
+204.1708 	DATA 	Mouse: Left button down, pos=(931,395)
+204.1709 	DATA 	RatingScale rating: (mouse response) rating=4
+204.1710 	DATA 	RatingScale rating: rating RT=1.352
+204.1710 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 1.034), (4, 1.352)]
+204.1862 	EXP 	New trial (rep=0, index=42): {'images': u'images/i17.bmp', 'condition': u'scrambled'}
+204.1918 	EXP 	RatingScale rating: reset()
+204.2022 	EXP 	fixationcross: autoDraw = False
+204.2022 	EXP 	image: autoDraw = False
+204.2022 	EXP 	rating: autoDraw = False
+204.2022 	EXP 	image: image = u'images/i17.bmp'
+204.2022 	EXP 	fixationcross: autoDraw = True
+204.2856 	DATA 	Mouse:  Left button up, pos=(931,395)
+204.7021 	EXP 	fixationcross: autoDraw = False
+205.2194 	EXP 	image: autoDraw = True
+205.3022 	EXP 	image: autoDraw = False
+205.4189 	EXP 	rating: autoDraw = True
+206.5023 	DATA 	Mouse: Left button down, pos=(897,533)
+206.5876 	DATA 	Mouse:  Left button up, pos=(897,533)
+207.0354 	DATA 	Mouse: Left button down, pos=(909,405)
+207.0374 	DATA 	RatingScale rating: (mouse response) rating=4
+207.0374 	DATA 	RatingScale rating: rating RT=1.635
+207.0374 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 1.101), (4, 1.635)]
+207.0525 	EXP 	New trial (rep=0, index=43): {'images': u'images/k11.bmp', 'condition': u'gestalt'}
+207.0577 	EXP 	RatingScale rating: reset()
+207.0686 	EXP 	fixationcross: autoDraw = False
+207.0686 	EXP 	image: autoDraw = False
+207.0686 	EXP 	rating: autoDraw = False
+207.0686 	EXP 	image: image = u'images/k11.bmp'
+207.0686 	EXP 	fixationcross: autoDraw = True
+207.1520 	DATA 	Mouse:  Left button up, pos=(909,405)
+207.5686 	EXP 	fixationcross: autoDraw = False
+208.0853 	EXP 	image: autoDraw = True
+208.1686 	EXP 	image: autoDraw = False
+208.2855 	EXP 	rating: autoDraw = True
+212.1189 	DATA 	Mouse: Left button down, pos=(900,542)
+212.2023 	DATA 	Mouse:  Left button up, pos=(900,542)
+212.5687 	DATA 	Mouse: Left button down, pos=(926,363)
+212.6520 	DATA 	Mouse:  Left button up, pos=(926,363)
+212.8856 	DATA 	Mouse: Left button down, pos=(933,381)
+212.9707 	DATA 	Mouse:  Left button up, pos=(933,381)
+213.7687 	DATA 	Mouse: Left button down, pos=(957,409)
+213.7708 	DATA 	RatingScale rating: (mouse response) rating=4
+213.7708 	DATA 	RatingScale rating: rating RT=5.502
+213.7708 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 3.851), (4, 5.502)]
+213.7859 	EXP 	New trial (rep=0, index=44): {'images': u'images/i19.bmp', 'condition': u'scrambled'}
+213.7912 	EXP 	RatingScale rating: reset()
+213.8021 	EXP 	fixationcross: autoDraw = False
+213.8021 	EXP 	image: autoDraw = False
+213.8021 	EXP 	rating: autoDraw = False
+213.8021 	EXP 	image: image = u'images/i19.bmp'
+213.8021 	EXP 	fixationcross: autoDraw = True
+213.9022 	DATA 	Mouse:  Left button up, pos=(957,409)
+214.3021 	EXP 	fixationcross: autoDraw = False
+214.8189 	EXP 	image: autoDraw = True
+214.9021 	EXP 	image: autoDraw = False
+215.0193 	EXP 	rating: autoDraw = True
+224.6353 	DATA 	Mouse: Left button down, pos=(932,565)
+224.7520 	DATA 	Mouse:  Left button up, pos=(932,565)
+225.1874 	DATA 	Mouse: Left button down, pos=(968,369)
+225.2855 	DATA 	Mouse:  Left button up, pos=(971,363)
+225.8687 	DATA 	Mouse: Left button down, pos=(981,406)
+225.8708 	DATA 	RatingScale rating: (mouse response) rating=5
+225.8708 	DATA 	RatingScale rating: rating RT=10.868
+225.8708 	DATA 	RatingScale rating: history=[(None, 0.0), (5, 9.634), (5, 10.868)]
+225.8859 	EXP 	New trial (rep=0, index=45): {'images': u'images/INVk24.bmp', 'condition': u'inverted'}
+225.8912 	EXP 	RatingScale rating: reset()
+225.9021 	EXP 	fixationcross: autoDraw = False
+225.9021 	EXP 	image: autoDraw = False
+225.9021 	EXP 	rating: autoDraw = False
+225.9021 	EXP 	image: image = u'images/INVk24.bmp'
+225.9021 	EXP 	fixationcross: autoDraw = True
+225.9519 	DATA 	Mouse:  Left button up, pos=(981,406)
+226.4021 	EXP 	fixationcross: autoDraw = False
+226.9189 	EXP 	image: autoDraw = True
+227.0021 	EXP 	image: autoDraw = False
+227.1193 	EXP 	rating: autoDraw = True
+241.3021 	DATA 	Mouse: Left button down, pos=(881,557)
+241.4021 	DATA 	Mouse:  Left button up, pos=(881,557)
+241.7021 	DATA 	Mouse: Left button down, pos=(928,425)
+241.7043 	DATA 	RatingScale rating: (mouse response) rating=4
+241.7043 	DATA 	RatingScale rating: rating RT=14.602
+241.7043 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 14.201), (4, 14.602)]
+241.7199 	EXP 	New trial (rep=0, index=46): {'images': u'images/i26.bmp', 'condition': u'scrambled'}
+241.7261 	EXP 	RatingScale rating: reset()
+241.7351 	EXP 	fixationcross: autoDraw = False
+241.7351 	EXP 	image: autoDraw = False
+241.7351 	EXP 	rating: autoDraw = False
+241.7351 	EXP 	image: image = u'images/i26.bmp'
+241.7351 	EXP 	fixationcross: autoDraw = True
+241.7855 	DATA 	Mouse:  Left button up, pos=(928,425)
+242.2351 	EXP 	fixationcross: autoDraw = False
+242.7519 	EXP 	image: autoDraw = True
+242.8351 	EXP 	image: autoDraw = False
+242.9517 	EXP 	rating: autoDraw = True
+243.5519 	DATA 	Mouse: Left button down, pos=(867,559)
+243.6194 	DATA 	Mouse:  Left button up, pos=(867,559)
+243.8352 	DATA 	Mouse: Left button down, pos=(973,444)
+243.9352 	DATA 	Mouse:  Left button up, pos=(973,444)
+244.1520 	DATA 	Mouse: Left button down, pos=(1033,391)
+244.1541 	DATA 	RatingScale rating: (mouse response) rating=4
+244.1541 	DATA 	RatingScale rating: rating RT=1.219
+244.1541 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 0.618), (4, 1.219)]
+244.1691 	EXP 	New trial (rep=0, index=47): {'images': u'images/k02.bmp', 'condition': u'gestalt'}
+244.1746 	EXP 	RatingScale rating: reset()
+244.1853 	EXP 	fixationcross: autoDraw = False
+244.1853 	EXP 	image: autoDraw = False
+244.1853 	EXP 	rating: autoDraw = False
+244.1853 	EXP 	image: image = u'images/k02.bmp'
+244.1853 	EXP 	fixationcross: autoDraw = True
+244.2193 	DATA 	Mouse:  Left button up, pos=(1035,390)
+244.6851 	EXP 	fixationcross: autoDraw = False
+245.2021 	EXP 	image: autoDraw = True
+245.2854 	EXP 	image: autoDraw = False
+245.4020 	EXP 	rating: autoDraw = True
+246.8194 	DATA 	Mouse: Left button down, pos=(880,555)
+246.8855 	DATA 	Mouse:  Left button up, pos=(880,555)
+247.1352 	DATA 	Mouse: Left button down, pos=(968,372)
+247.2352 	DATA 	Mouse:  Left button up, pos=(969,371)
+247.4855 	DATA 	Mouse: Left button down, pos=(969,393)
+247.4876 	DATA 	RatingScale rating: (mouse response) rating=4
+247.4877 	DATA 	RatingScale rating: rating RT=2.102
+247.4877 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 1.435), (4, 2.102)]
+247.5026 	EXP 	New trial (rep=0, index=48): {'images': u'images/k13.bmp', 'condition': u'gestalt'}
+247.5082 	EXP 	RatingScale rating: reset()
+247.5192 	EXP 	fixationcross: autoDraw = False
+247.5192 	EXP 	image: autoDraw = False
+247.5192 	EXP 	rating: autoDraw = False
+247.5192 	EXP 	image: image = u'images/k13.bmp'
+247.5192 	EXP 	fixationcross: autoDraw = True
+247.5519 	DATA 	Mouse:  Left button up, pos=(969,393)
+248.0187 	EXP 	fixationcross: autoDraw = False
+248.5351 	EXP 	image: autoDraw = True
+248.6192 	EXP 	image: autoDraw = False
+248.7352 	EXP 	rating: autoDraw = True
+249.4686 	DATA 	Mouse: Left button down, pos=(1166,596)
+249.5352 	DATA 	Mouse:  Left button up, pos=(1169,577)
+249.7518 	DATA 	Mouse: Left button down, pos=(1153,546)
+249.8352 	DATA 	Mouse:  Left button up, pos=(1153,546)
+250.1352 	DATA 	Mouse: Left button down, pos=(1093,382)
+250.2193 	DATA 	Mouse:  Left button up, pos=(1093,382)
+250.4688 	DATA 	Mouse: Left button down, pos=(1094,386)
+250.5352 	DATA 	Mouse:  Left button up, pos=(1094,387)
+250.8021 	DATA 	Mouse: Left button down, pos=(1093,405)
+250.8043 	DATA 	RatingScale rating: (mouse response) rating=8
+250.8043 	DATA 	RatingScale rating: rating RT=2.085
+250.8043 	DATA 	RatingScale rating: history=[(None, 0.0), (8, 1.033), (8, 2.085)]
+250.8194 	EXP 	New trial (rep=0, index=49): {'images': u'images/k05.bmp', 'condition': u'gestalt'}
+250.8254 	EXP 	RatingScale rating: reset()
+250.8351 	EXP 	fixationcross: autoDraw = False
+250.8351 	EXP 	image: autoDraw = False
+250.8351 	EXP 	rating: autoDraw = False
+250.8351 	EXP 	image: image = u'images/k05.bmp'
+250.8351 	EXP 	fixationcross: autoDraw = True
+250.8686 	DATA 	Mouse:  Left button up, pos=(1093,405)
+251.3351 	EXP 	fixationcross: autoDraw = False
+251.8519 	EXP 	image: autoDraw = True
+251.9350 	EXP 	image: autoDraw = False
+252.0518 	EXP 	rating: autoDraw = True
+252.6193 	DATA 	Mouse: Left button down, pos=(951,553)
+252.7021 	DATA 	Mouse:  Left button up, pos=(950,553)
+252.9352 	DATA 	Mouse: Left button down, pos=(988,376)
+253.0193 	DATA 	Mouse:  Left button up, pos=(989,375)
+253.2352 	DATA 	Mouse: Left button down, pos=(981,396)
+253.2372 	DATA 	RatingScale rating: (mouse response) rating=5
+253.2372 	DATA 	RatingScale rating: rating RT=1.202
+253.2373 	DATA 	RatingScale rating: history=[(None, 0.0), (5, 0.585), (5, 1.202)]
+253.2523 	EXP 	New trial (rep=0, index=50): {'images': u'images/i22.bmp', 'condition': u'scrambled'}
+253.2576 	EXP 	RatingScale rating: reset()
+253.2684 	EXP 	fixationcross: autoDraw = False
+253.2684 	EXP 	image: autoDraw = False
+253.2684 	EXP 	rating: autoDraw = False
+253.2684 	EXP 	image: image = u'images/i22.bmp'
+253.2684 	EXP 	fixationcross: autoDraw = True
+253.3352 	DATA 	Mouse:  Left button up, pos=(981,396)
+253.7684 	EXP 	fixationcross: autoDraw = False
+254.2853 	EXP 	image: autoDraw = True
+254.3684 	EXP 	image: autoDraw = False
+254.4853 	EXP 	rating: autoDraw = True
+255.2352 	DATA 	Mouse: Left button down, pos=(888,535)
+255.3021 	DATA 	Mouse:  Left button up, pos=(888,535)
+255.9021 	DATA 	Mouse: Left button down, pos=(924,420)
+255.9043 	DATA 	RatingScale rating: (mouse response) rating=4
+255.9043 	DATA 	RatingScale rating: rating RT=1.436
+255.9044 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 0.768), (4, 1.436)]
+255.9193 	EXP 	New trial (rep=0, index=51): {'images': u'images/k23.bmp', 'condition': u'gestalt'}
+255.9253 	EXP 	RatingScale rating: reset()
+255.9351 	EXP 	fixationcross: autoDraw = False
+255.9351 	EXP 	image: autoDraw = False
+255.9351 	EXP 	rating: autoDraw = False
+255.9351 	EXP 	image: image = u'images/k23.bmp'
+255.9351 	EXP 	fixationcross: autoDraw = True
+256.0193 	DATA 	Mouse:  Left button up, pos=(924,420)
+256.4351 	EXP 	fixationcross: autoDraw = False
+256.9518 	EXP 	image: autoDraw = True
+257.0351 	EXP 	image: autoDraw = False
+257.1518 	EXP 	rating: autoDraw = True
+258.2686 	DATA 	Mouse: Left button down, pos=(881,548)
+258.3685 	DATA 	Mouse:  Left button up, pos=(881,548)
+258.7193 	DATA 	Mouse: Left button down, pos=(900,431)
+258.7217 	DATA 	RatingScale rating: (mouse response) rating=4
+258.7217 	DATA 	RatingScale rating: rating RT=1.586
+258.7217 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 1.134), (4, 1.586)]
+258.7357 	EXP 	New trial (rep=0, index=52): {'images': u'images/i23.bmp', 'condition': u'scrambled'}
+258.7408 	EXP 	RatingScale rating: reset()
+258.7518 	EXP 	fixationcross: autoDraw = False
+258.7518 	EXP 	image: autoDraw = False
+258.7518 	EXP 	rating: autoDraw = False
+258.7518 	EXP 	image: image = u'images/i23.bmp'
+258.7518 	EXP 	fixationcross: autoDraw = True
+258.8021 	DATA 	Mouse:  Left button up, pos=(900,431)
+259.2517 	EXP 	fixationcross: autoDraw = False
+259.7685 	EXP 	image: autoDraw = True
+259.8517 	EXP 	image: autoDraw = False
+259.9684 	EXP 	rating: autoDraw = True
+260.7518 	DATA 	Mouse: Left button down, pos=(904,548)
+260.8518 	DATA 	Mouse:  Left button up, pos=(904,548)
+261.1020 	DATA 	Mouse: Left button down, pos=(919,425)
+261.1042 	DATA 	RatingScale rating: (mouse response) rating=4
+261.1042 	DATA 	RatingScale rating: rating RT=1.152
+261.1043 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 0.801), (4, 1.152)]
+261.1197 	EXP 	New trial (rep=0, index=53): {'images': u'images/INVk21.bmp', 'condition': u'inverted'}
+261.1261 	EXP 	RatingScale rating: reset()
+261.1350 	EXP 	fixationcross: autoDraw = False
+261.1350 	EXP 	image: autoDraw = False
+261.1350 	EXP 	rating: autoDraw = False
+261.1350 	EXP 	image: image = u'images/INVk21.bmp'
+261.1350 	EXP 	fixationcross: autoDraw = True
+261.2021 	DATA 	Mouse:  Left button up, pos=(919,425)
+261.6350 	EXP 	fixationcross: autoDraw = False
+262.1518 	EXP 	image: autoDraw = True
+262.2351 	EXP 	image: autoDraw = False
+262.3518 	EXP 	rating: autoDraw = True
+262.9352 	DATA 	Mouse: Left button down, pos=(937,549)
+263.0352 	DATA 	Mouse:  Left button up, pos=(938,549)
+263.2352 	DATA 	Mouse: Left button down, pos=(947,453)
+263.3352 	DATA 	Mouse:  Left button up, pos=(947,453)
+263.5685 	DATA 	Mouse: Left button down, pos=(958,423)
+263.5706 	DATA 	RatingScale rating: (mouse response) rating=5
+263.5706 	DATA 	RatingScale rating: rating RT=1.235
+263.5706 	DATA 	RatingScale rating: history=[(None, 0.0), (5, 0.601), (5, 1.235)]
+263.5857 	EXP 	New trial (rep=0, index=54): {'images': u'images/k01.bmp', 'condition': u'gestalt'}
+263.5911 	EXP 	RatingScale rating: reset()
+263.6019 	EXP 	fixationcross: autoDraw = False
+263.6019 	EXP 	image: autoDraw = False
+263.6019 	EXP 	rating: autoDraw = False
+263.6019 	EXP 	image: image = u'images/k01.bmp'
+263.6019 	EXP 	fixationcross: autoDraw = True
+263.6854 	DATA 	Mouse:  Left button up, pos=(958,423)
+264.1023 	EXP 	fixationcross: autoDraw = False
+264.6192 	EXP 	image: autoDraw = True
+264.7019 	EXP 	image: autoDraw = False
+264.8191 	EXP 	rating: autoDraw = True
+265.7351 	DATA 	Mouse: Left button down, pos=(965,536)
+265.8351 	DATA 	Mouse:  Left button up, pos=(965,536)
+266.2854 	DATA 	Mouse: Left button down, pos=(994,415)
+266.2875 	DATA 	RatingScale rating: (mouse response) rating=5
+266.2876 	DATA 	RatingScale rating: rating RT=1.485
+266.2876 	DATA 	RatingScale rating: history=[(None, 0.0), (5, 0.934), (5, 1.485)]
+266.3026 	EXP 	New trial (rep=0, index=55): {'images': u'images/i27.bmp', 'condition': u'scrambled'}
+266.3081 	EXP 	RatingScale rating: reset()
+266.3191 	EXP 	fixationcross: autoDraw = False
+266.3191 	EXP 	image: autoDraw = False
+266.3191 	EXP 	rating: autoDraw = False
+266.3191 	EXP 	image: image = u'images/i27.bmp'
+266.3191 	EXP 	fixationcross: autoDraw = True
+266.3854 	DATA 	Mouse:  Left button up, pos=(994,415)
+266.8185 	EXP 	fixationcross: autoDraw = False
+267.3351 	EXP 	image: autoDraw = True
+267.4191 	EXP 	image: autoDraw = False
+267.5351 	EXP 	rating: autoDraw = True
+268.0685 	DATA 	Mouse: Left button down, pos=(961,559)
+268.1685 	DATA 	Mouse:  Left button up, pos=(963,556)
+268.3707 	DATA 	Mouse: Left button down, pos=(990,393)
+268.3709 	DATA 	RatingScale rating: (mouse response) rating=5
+268.3709 	DATA 	RatingScale rating: rating RT=0.851
+268.3709 	DATA 	RatingScale rating: history=[(None, 0.0), (5, 0.55), (5, 0.851)]
+268.3859 	EXP 	New trial (rep=0, index=56): {'images': u'images/i10.bmp', 'condition': u'scrambled'}
+268.3914 	EXP 	RatingScale rating: reset()
+268.4024 	EXP 	fixationcross: autoDraw = False
+268.4024 	EXP 	image: autoDraw = False
+268.4024 	EXP 	rating: autoDraw = False
+268.4024 	EXP 	image: image = u'images/i10.bmp'
+268.4024 	EXP 	fixationcross: autoDraw = True
+268.4685 	DATA 	Mouse:  Left button up, pos=(990,393)
+268.9019 	EXP 	fixationcross: autoDraw = False
+269.4186 	EXP 	image: autoDraw = True
+269.5019 	EXP 	image: autoDraw = False
+269.6187 	EXP 	rating: autoDraw = True
+270.3187 	DATA 	Mouse: Left button down, pos=(941,561)
+270.4187 	DATA 	Mouse:  Left button up, pos=(941,553)
+270.6685 	DATA 	Mouse: Left button down, pos=(1009,432)
+270.6705 	DATA 	RatingScale rating: (mouse response) rating=5
+270.6705 	DATA 	RatingScale rating: rating RT=1.068
+270.6706 	DATA 	RatingScale rating: history=[(None, 0.0), (5, 0.718), (5, 1.068)]
+270.6859 	EXP 	New trial (rep=0, index=57): {'images': u'images/INVk04.bmp', 'condition': u'inverted'}
+270.6914 	EXP 	RatingScale rating: reset()
+270.7019 	EXP 	fixationcross: autoDraw = False
+270.7019 	EXP 	image: autoDraw = False
+270.7019 	EXP 	rating: autoDraw = False
+270.7019 	EXP 	image: image = u'images/INVk04.bmp'
+270.7019 	EXP 	fixationcross: autoDraw = True
+270.7685 	DATA 	Mouse:  Left button up, pos=(1009,432)
+271.2019 	EXP 	fixationcross: autoDraw = False
+271.7192 	EXP 	image: autoDraw = True
+271.8024 	EXP 	image: autoDraw = False
+271.9185 	EXP 	rating: autoDraw = True
+272.5192 	DATA 	Mouse: Left button down, pos=(1127,569)
+272.6352 	DATA 	Mouse:  Left button up, pos=(1127,569)
+273.1020 	DATA 	Mouse: Left button down, pos=(1083,395)
+273.1043 	DATA 	RatingScale rating: (mouse response) rating=7
+273.1043 	DATA 	RatingScale rating: rating RT=1.202
+273.1043 	DATA 	RatingScale rating: history=[(None, 0.0), (7, 0.618), (7, 1.202)]
+273.1198 	EXP 	New trial (rep=0, index=58): {'images': u'images/i04.bmp', 'condition': u'scrambled'}
+273.1259 	EXP 	RatingScale rating: reset()
+273.1350 	EXP 	fixationcross: autoDraw = False
+273.1350 	EXP 	image: autoDraw = False
+273.1350 	EXP 	rating: autoDraw = False
+273.1350 	EXP 	image: image = u'images/i04.bmp'
+273.1350 	EXP 	fixationcross: autoDraw = True
+273.1853 	DATA 	Mouse:  Left button up, pos=(1083,395)
+273.6350 	EXP 	fixationcross: autoDraw = False
+274.1518 	EXP 	image: autoDraw = True
+274.2350 	EXP 	image: autoDraw = False
+274.3517 	EXP 	rating: autoDraw = True
+274.9685 	DATA 	Mouse: Left button down, pos=(1027,571)
+275.0518 	DATA 	Mouse:  Left button up, pos=(1029,567)
+275.3187 	DATA 	Mouse: Left button down, pos=(1049,443)
+275.4351 	DATA 	Mouse:  Left button up, pos=(1049,443)
+275.6685 	DATA 	Mouse: Left button down, pos=(1054,423)
+275.6706 	DATA 	RatingScale rating: (mouse response) rating=6
+275.6706 	DATA 	RatingScale rating: rating RT=1.335
+275.6706 	DATA 	RatingScale rating: history=[(None, 0.0), (6, 0.634), (6, 1.335)]
+275.6858 	EXP 	New trial (rep=0, index=59): {'images': u'images/k22.bmp', 'condition': u'gestalt'}
+275.6915 	EXP 	RatingScale rating: reset()
+275.7019 	EXP 	fixationcross: autoDraw = False
+275.7019 	EXP 	image: autoDraw = False
+275.7019 	EXP 	rating: autoDraw = False
+275.7019 	EXP 	image: image = u'images/k22.bmp'
+275.7019 	EXP 	fixationcross: autoDraw = True
+275.7853 	DATA 	Mouse:  Left button up, pos=(1054,423)
+276.2019 	EXP 	fixationcross: autoDraw = False
+276.7191 	EXP 	image: autoDraw = True
+276.8019 	EXP 	image: autoDraw = False
+276.9191 	EXP 	rating: autoDraw = True
+277.5853 	DATA 	Mouse: Left button down, pos=(855,549)
+277.7020 	DATA 	Mouse:  Left button up, pos=(855,549)
+277.9685 	DATA 	Mouse: Left button down, pos=(966,435)
+277.9706 	DATA 	RatingScale rating: (mouse response) rating=4
+277.9706 	DATA 	RatingScale rating: rating RT=1.068
+277.9706 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 0.684), (4, 1.068)]
+277.9856 	EXP 	New trial (rep=0, index=60): {'images': u'images/i16.bmp', 'condition': u'scrambled'}
+277.9909 	EXP 	RatingScale rating: reset()
+278.0019 	EXP 	fixationcross: autoDraw = False
+278.0019 	EXP 	image: autoDraw = False
+278.0019 	EXP 	rating: autoDraw = False
+278.0019 	EXP 	image: image = u'images/i16.bmp'
+278.0019 	EXP 	fixationcross: autoDraw = True
+278.0685 	DATA 	Mouse:  Left button up, pos=(968,427)
+278.5019 	EXP 	fixationcross: autoDraw = False
+279.0188 	EXP 	image: autoDraw = True
+279.1019 	EXP 	image: autoDraw = False
+279.2191 	EXP 	rating: autoDraw = True
+280.0031 	DATA 	Mouse: Left button down, pos=(894,553)
+280.0854 	DATA 	Mouse:  Left button up, pos=(894,553)
+280.3022 	DATA 	Mouse: Left button down, pos=(961,414)
+280.3046 	DATA 	RatingScale rating: (mouse response) rating=4
+280.3046 	DATA 	RatingScale rating: rating RT=1.102
+280.3046 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 0.801), (4, 1.102)]
+280.3198 	EXP 	New trial (rep=0, index=61): {'images': u'images/INVk27.bmp', 'condition': u'inverted'}
+280.3259 	EXP 	RatingScale rating: reset()
+280.3351 	EXP 	fixationcross: autoDraw = False
+280.3351 	EXP 	image: autoDraw = False
+280.3351 	EXP 	rating: autoDraw = False
+280.3351 	EXP 	image: image = u'images/INVk27.bmp'
+280.3351 	EXP 	fixationcross: autoDraw = True
+280.3853 	DATA 	Mouse:  Left button up, pos=(961,414)
+280.8350 	EXP 	fixationcross: autoDraw = False
+281.3516 	EXP 	image: autoDraw = True
+281.4350 	EXP 	image: autoDraw = False
+281.5516 	EXP 	rating: autoDraw = True
+282.0518 	DATA 	Mouse: Left button down, pos=(953,537)
+282.1517 	DATA 	Mouse:  Left button up, pos=(953,537)
+282.3684 	DATA 	Mouse: Left button down, pos=(982,369)
+282.4517 	DATA 	Mouse:  Left button up, pos=(982,369)
+282.6853 	DATA 	Mouse: Left button down, pos=(975,424)
+282.6875 	DATA 	RatingScale rating: (mouse response) rating=5
+282.6875 	DATA 	RatingScale rating: rating RT=1.152
+282.6875 	DATA 	RatingScale rating: history=[(None, 0.0), (5, 0.518), (5, 1.152)]
+282.7025 	EXP 	New trial (rep=0, index=62): {'images': u'images/k19.bmp', 'condition': u'gestalt'}
+282.7082 	EXP 	RatingScale rating: reset()
+282.7191 	EXP 	fixationcross: autoDraw = False
+282.7191 	EXP 	image: autoDraw = False
+282.7191 	EXP 	rating: autoDraw = False
+282.7191 	EXP 	image: image = u'images/k19.bmp'
+282.7191 	EXP 	fixationcross: autoDraw = True
+282.7684 	DATA 	Mouse:  Left button up, pos=(975,424)
+283.2185 	EXP 	fixationcross: autoDraw = False
+283.7356 	EXP 	image: autoDraw = True
+283.8185 	EXP 	image: autoDraw = False
+283.9357 	EXP 	rating: autoDraw = True
+284.4684 	DATA 	Mouse: Left button down, pos=(946,544)
+284.5517 	DATA 	Mouse:  Left button up, pos=(946,544)
+284.7359 	DATA 	Mouse: Left button down, pos=(981,398)
+284.7384 	DATA 	RatingScale rating: (mouse response) rating=5
+284.7384 	DATA 	RatingScale rating: rating RT=0.820
+284.7384 	DATA 	RatingScale rating: history=[(None, 0.0), (5, 0.551), (5, 0.82)]
+284.7522 	EXP 	New trial (rep=0, index=63): {'images': u'images/INVk19.bmp', 'condition': u'inverted'}
+284.7574 	EXP 	RatingScale rating: reset()
+284.7683 	EXP 	fixationcross: autoDraw = False
+284.7683 	EXP 	image: autoDraw = False
+284.7683 	EXP 	rating: autoDraw = False
+284.7683 	EXP 	image: image = u'images/INVk19.bmp'
+284.7683 	EXP 	fixationcross: autoDraw = True
+284.8186 	DATA 	Mouse:  Left button up, pos=(981,398)
+285.2682 	EXP 	fixationcross: autoDraw = False
+285.7850 	EXP 	image: autoDraw = True
+285.8683 	EXP 	image: autoDraw = False
+285.9850 	EXP 	rating: autoDraw = True
+286.5518 	DATA 	Mouse: Left button down, pos=(957,530)
+286.6186 	DATA 	Mouse:  Left button up, pos=(957,530)
+286.7683 	DATA 	Mouse: Left button down, pos=(966,381)
+286.8683 	DATA 	Mouse:  Left button up, pos=(966,381)
+287.1186 	DATA 	Mouse: Left button down, pos=(966,399)
+287.1208 	DATA 	RatingScale rating: (mouse response) rating=5
+287.1208 	DATA 	RatingScale rating: rating RT=1.152
+287.1208 	DATA 	RatingScale rating: history=[(None, 0.0), (5, 0.584), (5, 1.152)]
+287.1361 	EXP 	New trial (rep=0, index=64): {'images': u'images/k06.bmp', 'condition': u'gestalt'}
+287.1422 	EXP 	RatingScale rating: reset()
+287.1516 	EXP 	fixationcross: autoDraw = False
+287.1516 	EXP 	image: autoDraw = False
+287.1516 	EXP 	rating: autoDraw = False
+287.1516 	EXP 	image: image = u'images/k06.bmp'
+287.1516 	EXP 	fixationcross: autoDraw = True
+287.2020 	DATA 	Mouse:  Left button up, pos=(966,399)
+287.6516 	EXP 	fixationcross: autoDraw = False
+288.1684 	EXP 	image: autoDraw = True
+288.2516 	EXP 	image: autoDraw = False
+288.3683 	EXP 	rating: autoDraw = True
+289.0684 	DATA 	Mouse: Left button down, pos=(1015,532)
+289.1684 	DATA 	Mouse:  Left button up, pos=(1015,532)
+289.5353 	DATA 	Mouse: Left button down, pos=(1016,383)
+289.6186 	DATA 	Mouse:  Left button up, pos=(1016,383)
+290.2851 	DATA 	Mouse: Left button down, pos=(1015,394)
+290.2872 	DATA 	RatingScale rating: (mouse response) rating=6
+290.2872 	DATA 	RatingScale rating: rating RT=1.935
+290.2872 	DATA 	RatingScale rating: history=[(None, 0.0), (6, 0.718), (6, 1.935)]
+290.3023 	EXP 	New trial (rep=0, index=65): {'images': u'images/i11.bmp', 'condition': u'scrambled'}
+290.3076 	EXP 	RatingScale rating: reset()
+290.3185 	EXP 	fixationcross: autoDraw = False
+290.3185 	EXP 	image: autoDraw = False
+290.3185 	EXP 	rating: autoDraw = False
+290.3185 	EXP 	image: image = u'images/i11.bmp'
+290.3185 	EXP 	fixationcross: autoDraw = True
+290.3851 	DATA 	Mouse:  Left button up, pos=(1015,394)
+290.8185 	EXP 	fixationcross: autoDraw = False
+291.3352 	EXP 	image: autoDraw = True
+291.4185 	EXP 	image: autoDraw = False
+291.5357 	EXP 	rating: autoDraw = True
+292.2186 	DATA 	Mouse: Left button down, pos=(782,564)
+292.3019 	DATA 	Mouse:  Left button up, pos=(782,564)
+292.6040 	DATA 	Mouse: Left button down, pos=(946,411)
+292.6042 	DATA 	RatingScale rating: (mouse response) rating=3
+292.6042 	DATA 	RatingScale rating: rating RT=1.085
+292.6042 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 0.701), (3, 1.085)]
+292.6191 	EXP 	New trial (rep=0, index=66): {'images': u'images/INVk01.bmp', 'condition': u'inverted'}
+292.6255 	EXP 	RatingScale rating: reset()
+292.6357 	EXP 	fixationcross: autoDraw = False
+292.6357 	EXP 	image: autoDraw = False
+292.6357 	EXP 	rating: autoDraw = False
+292.6357 	EXP 	image: image = u'images/INVk01.bmp'
+292.6357 	EXP 	fixationcross: autoDraw = True
+292.7019 	DATA 	Mouse:  Left button up, pos=(946,411)
+293.1356 	EXP 	fixationcross: autoDraw = False
+293.6516 	EXP 	image: autoDraw = True
+293.7351 	EXP 	image: autoDraw = False
+293.8516 	EXP 	rating: autoDraw = True
+294.5017 	DATA 	Mouse: Left button down, pos=(895,560)
+294.6017 	DATA 	Mouse:  Left button up, pos=(895,560)
+294.8851 	DATA 	Mouse: Left button down, pos=(932,425)
+294.8873 	DATA 	RatingScale rating: (mouse response) rating=4
+294.8873 	DATA 	RatingScale rating: rating RT=1.052
+294.8873 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 0.667), (4, 1.052)]
+294.9025 	EXP 	New trial (rep=0, index=67): {'images': u'images/k08.bmp', 'condition': u'gestalt'}
+294.9081 	EXP 	RatingScale rating: reset()
+294.9185 	EXP 	fixationcross: autoDraw = False
+294.9185 	EXP 	image: autoDraw = False
+294.9185 	EXP 	rating: autoDraw = False
+294.9185 	EXP 	image: image = u'images/k08.bmp'
+294.9185 	EXP 	fixationcross: autoDraw = True
+295.0019 	DATA 	Mouse:  Left button up, pos=(932,425)
+295.4185 	EXP 	fixationcross: autoDraw = False
+295.9357 	EXP 	image: autoDraw = True
+296.0185 	EXP 	image: autoDraw = False
+296.1356 	EXP 	rating: autoDraw = True
+296.9517 	DATA 	Mouse: Left button down, pos=(1060,558)
+297.0358 	DATA 	Mouse:  Left button up, pos=(1060,558)
+297.5704 	DATA 	Mouse: Left button down, pos=(1060,461)
+297.7019 	DATA 	Mouse:  Left button up, pos=(1060,443)
+297.8520 	DATA 	Mouse: Left button down, pos=(1066,405)
+297.8541 	DATA 	RatingScale rating: (mouse response) rating=6
+297.8541 	DATA 	RatingScale rating: rating RT=1.735
+297.8541 	DATA 	RatingScale rating: history=[(None, 0.0), (6, 0.834), (6, 1.735)]
+297.8688 	EXP 	New trial (rep=0, index=68): {'images': u'images/INVk23.bmp', 'condition': u'inverted'}
+297.8739 	EXP 	RatingScale rating: reset()
+297.8849 	EXP 	fixationcross: autoDraw = False
+297.8849 	EXP 	image: autoDraw = False
+297.8849 	EXP 	rating: autoDraw = False
+297.8849 	EXP 	image: image = u'images/INVk23.bmp'
+297.8849 	EXP 	fixationcross: autoDraw = True
+297.9683 	DATA 	Mouse:  Left button up, pos=(1066,405)
+298.3849 	EXP 	fixationcross: autoDraw = False
+298.9016 	EXP 	image: autoDraw = True
+298.9849 	EXP 	image: autoDraw = False
+299.1017 	EXP 	rating: autoDraw = True
+299.6517 	DATA 	Mouse: Left button down, pos=(854,552)
+299.7376 	DATA 	Mouse:  Left button up, pos=(850,551)
+300.2019 	DATA 	Mouse: Left button down, pos=(943,400)
+300.2042 	DATA 	RatingScale rating: (mouse response) rating=3
+300.2042 	DATA 	RatingScale rating: rating RT=1.119
+300.2042 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 0.568), (3, 0.652), (3, 1.119)]
+300.2191 	EXP 	New trial (rep=0, index=69): {'images': u'images/k14.bmp', 'condition': u'gestalt'}
+300.2249 	EXP 	RatingScale rating: reset()
+300.2356 	EXP 	fixationcross: autoDraw = False
+300.2356 	EXP 	image: autoDraw = False
+300.2356 	EXP 	rating: autoDraw = False
+300.2356 	EXP 	image: image = u'images/k14.bmp'
+300.2356 	EXP 	fixationcross: autoDraw = True
+300.3019 	DATA 	Mouse:  Left button up, pos=(943,400)
+300.7351 	EXP 	fixationcross: autoDraw = False
+301.2517 	EXP 	image: autoDraw = True
+301.3356 	EXP 	image: autoDraw = False
+301.4516 	EXP 	rating: autoDraw = True
+302.2028 	DATA 	Mouse: Left button down, pos=(1069,560)
+302.3352 	DATA 	Mouse:  Left button up, pos=(1069,560)
+302.6684 	DATA 	Mouse: Left button down, pos=(1054,388)
+302.6706 	DATA 	RatingScale rating: (mouse response) rating=7
+302.6706 	DATA 	RatingScale rating: rating RT=1.235
+302.6706 	DATA 	RatingScale rating: history=[(None, 0.0), (7, 0.767), (7, 1.235)]
+302.6855 	EXP 	New trial (rep=0, index=70): {'images': u'images/INVk09.bmp', 'condition': u'inverted'}
+302.6906 	EXP 	RatingScale rating: reset()
+302.7018 	EXP 	fixationcross: autoDraw = False
+302.7018 	EXP 	image: autoDraw = False
+302.7018 	EXP 	rating: autoDraw = False
+302.7018 	EXP 	image: image = u'images/INVk09.bmp'
+302.7018 	EXP 	fixationcross: autoDraw = True
+302.7684 	DATA 	Mouse:  Left button up, pos=(1054,388)
+303.2015 	EXP 	fixationcross: autoDraw = False
+303.7185 	EXP 	image: autoDraw = True
+303.8018 	EXP 	image: autoDraw = False
+303.9184 	EXP 	rating: autoDraw = True
+304.7517 	DATA 	Mouse: Left button down, pos=(1006,560)
+304.8683 	DATA 	Mouse:  Left button up, pos=(1006,560)
+305.2019 	DATA 	Mouse: Left button down, pos=(1025,482)
+305.3186 	DATA 	Mouse:  Left button up, pos=(1028,478)
+305.5381 	DATA 	Mouse: Left button down, pos=(1031,436)
+305.5382 	DATA 	RatingScale rating: (mouse response) rating=6
+305.5382 	DATA 	RatingScale rating: rating RT=1.636
+305.5383 	DATA 	RatingScale rating: history=[(None, 0.0), (6, 0.851), (6, 1.636)]
+305.5521 	EXP 	New trial (rep=0, index=71): {'images': u'images/k03.bmp', 'condition': u'gestalt'}
+305.5573 	EXP 	RatingScale rating: reset()
+305.5682 	EXP 	fixationcross: autoDraw = False
+305.5682 	EXP 	image: autoDraw = False
+305.5682 	EXP 	rating: autoDraw = False
+305.5682 	EXP 	image: image = u'images/k03.bmp'
+305.5682 	EXP 	fixationcross: autoDraw = True
+305.6683 	DATA 	Mouse:  Left button up, pos=(1031,434)
+306.0682 	EXP 	fixationcross: autoDraw = False
+306.5850 	EXP 	image: autoDraw = True
+306.6682 	EXP 	image: autoDraw = False
+306.7849 	EXP 	rating: autoDraw = True
+308.2352 	DATA 	Mouse: Left button down, pos=(891,545)
+308.3516 	DATA 	Mouse:  Left button up, pos=(891,545)
+308.7381 	DATA 	Mouse: Left button down, pos=(933,416)
+308.7382 	DATA 	RatingScale rating: (mouse response) rating=4
+308.7382 	DATA 	RatingScale rating: rating RT=1.970
+308.7383 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 1.468), (4, 1.97)]
+308.7521 	EXP 	New trial (rep=0, index=72): {'images': u'images/INVk06.bmp', 'condition': u'inverted'}
+308.7576 	EXP 	RatingScale rating: reset()
+308.7682 	EXP 	fixationcross: autoDraw = False
+308.7682 	EXP 	image: autoDraw = False
+308.7682 	EXP 	rating: autoDraw = False
+308.7682 	EXP 	image: image = u'images/INVk06.bmp'
+308.7682 	EXP 	fixationcross: autoDraw = True
+308.8358 	DATA 	Mouse:  Left button up, pos=(933,415)
+309.2681 	EXP 	fixationcross: autoDraw = False
+309.7851 	EXP 	image: autoDraw = True
+309.8681 	EXP 	image: autoDraw = False
+309.9849 	EXP 	rating: autoDraw = True
+310.9017 	DATA 	Mouse: Left button down, pos=(908,542)
+311.0017 	DATA 	Mouse:  Left button up, pos=(908,542)
+311.2850 	DATA 	Mouse: Left button down, pos=(930,412)
+311.2871 	DATA 	RatingScale rating: (mouse response) rating=4
+311.2871 	DATA 	RatingScale rating: rating RT=1.319
+311.2871 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 0.934), (4, 1.319)]
+311.3024 	EXP 	New trial (rep=0, index=73): {'images': u'images/INVk26.bmp', 'condition': u'inverted'}
+311.3080 	EXP 	RatingScale rating: reset()
+311.3184 	EXP 	fixationcross: autoDraw = False
+311.3184 	EXP 	image: autoDraw = False
+311.3184 	EXP 	rating: autoDraw = False
+311.3184 	EXP 	image: image = u'images/INVk26.bmp'
+311.3184 	EXP 	fixationcross: autoDraw = True
+311.3683 	DATA 	Mouse:  Left button up, pos=(931,411)
+311.8184 	EXP 	fixationcross: autoDraw = False
+312.3357 	EXP 	image: autoDraw = True
+312.4189 	EXP 	image: autoDraw = False
+312.5351 	EXP 	rating: autoDraw = True
+313.1019 	DATA 	Mouse: Left button down, pos=(988,549)
+313.1850 	DATA 	Mouse:  Left button up, pos=(988,549)
+313.5186 	DATA 	Mouse: Left button down, pos=(992,442)
+313.5208 	DATA 	RatingScale rating: (mouse response) rating=5
+313.5208 	DATA 	RatingScale rating: rating RT=1.002
+313.5208 	DATA 	RatingScale rating: history=[(None, 0.0), (5, 0.584), (5, 1.002)]
+313.5357 	EXP 	New trial (rep=0, index=74): {'images': u'images/i08.bmp', 'condition': u'scrambled'}
+313.5418 	EXP 	RatingScale rating: reset()
+313.5515 	EXP 	fixationcross: autoDraw = False
+313.5515 	EXP 	image: autoDraw = False
+313.5515 	EXP 	rating: autoDraw = False
+313.5515 	EXP 	image: image = u'images/i08.bmp'
+313.5515 	EXP 	fixationcross: autoDraw = True
+313.6185 	DATA 	Mouse:  Left button up, pos=(992,442)
+314.0516 	EXP 	fixationcross: autoDraw = False
+314.5683 	EXP 	image: autoDraw = True
+314.6515 	EXP 	image: autoDraw = False
+314.7682 	EXP 	rating: autoDraw = True
+315.2352 	DATA 	Mouse: Left button down, pos=(1039,550)
+315.3185 	DATA 	Mouse:  Left button up, pos=(1039,550)
+315.6019 	DATA 	Mouse: Left button down, pos=(1017,371)
+315.7019 	DATA 	Mouse:  Left button up, pos=(1017,371)
+315.9185 	DATA 	Mouse: Left button down, pos=(1012,394)
+315.9207 	DATA 	RatingScale rating: (mouse response) rating=6
+315.9207 	DATA 	RatingScale rating: rating RT=1.169
+315.9207 	DATA 	RatingScale rating: history=[(None, 0.0), (6, 0.484), (6, 1.169)]
+315.9357 	EXP 	New trial (rep=0, index=75): {'images': u'images/k10.bmp', 'condition': u'gestalt'}
+315.9416 	EXP 	RatingScale rating: reset()
+315.9515 	EXP 	fixationcross: autoDraw = False
+315.9515 	EXP 	image: autoDraw = False
+315.9515 	EXP 	rating: autoDraw = False
+315.9515 	EXP 	image: image = u'images/k10.bmp'
+315.9515 	EXP 	fixationcross: autoDraw = True
+316.0016 	DATA 	Mouse:  Left button up, pos=(1012,394)
+316.4515 	EXP 	fixationcross: autoDraw = False
+316.9682 	EXP 	image: autoDraw = True
+317.0515 	EXP 	image: autoDraw = False
+317.1682 	EXP 	rating: autoDraw = True
+317.7850 	DATA 	Mouse: Left button down, pos=(994,549)
+317.9019 	DATA 	Mouse:  Left button up, pos=(994,549)
+318.1683 	DATA 	Mouse: Left button down, pos=(1028,360)
+318.2516 	DATA 	Mouse:  Left button up, pos=(1028,360)
+318.5185 	DATA 	Mouse: Left button down, pos=(1023,392)
+318.5207 	DATA 	RatingScale rating: (mouse response) rating=5
+318.5207 	DATA 	RatingScale rating: rating RT=1.369
+318.5207 	DATA 	RatingScale rating: history=[(None, 0.0), (5, 0.634), (5, 1.369)]
+318.5357 	EXP 	New trial (rep=0, index=76): {'images': u'images/INVk30.bmp', 'condition': u'inverted'}
+318.5413 	EXP 	RatingScale rating: reset()
+318.5515 	EXP 	fixationcross: autoDraw = False
+318.5515 	EXP 	image: autoDraw = False
+318.5515 	EXP 	rating: autoDraw = False
+318.5515 	EXP 	image: image = u'images/INVk30.bmp'
+318.5515 	EXP 	fixationcross: autoDraw = True
+318.6185 	DATA 	Mouse:  Left button up, pos=(1023,392)
+319.0515 	EXP 	fixationcross: autoDraw = False
+319.5681 	EXP 	image: autoDraw = True
+319.6515 	EXP 	image: autoDraw = False
+319.7682 	EXP 	rating: autoDraw = True
+320.2682 	DATA 	Mouse: Left button down, pos=(1040,558)
+320.3682 	DATA 	Mouse:  Left button up, pos=(1040,558)
+320.6849 	DATA 	Mouse: Left button down, pos=(1040,391)
+320.6871 	DATA 	RatingScale rating: (mouse response) rating=6
+320.6871 	DATA 	RatingScale rating: rating RT=0.935
+320.6871 	DATA 	RatingScale rating: history=[(None, 0.0), (6, 0.518), (6, 0.935)]
+320.7024 	EXP 	New trial (rep=0, index=77): {'images': u'images/i18.bmp', 'condition': u'scrambled'}
+320.7080 	EXP 	RatingScale rating: reset()
+320.7183 	EXP 	fixationcross: autoDraw = False
+320.7183 	EXP 	image: autoDraw = False
+320.7183 	EXP 	rating: autoDraw = False
+320.7183 	EXP 	image: image = u'images/i18.bmp'
+320.7183 	EXP 	fixationcross: autoDraw = True
+320.8018 	DATA 	Mouse:  Left button up, pos=(1041,390)
+321.2183 	EXP 	fixationcross: autoDraw = False
+321.7356 	EXP 	image: autoDraw = True
+321.8189 	EXP 	image: autoDraw = False
+321.9350 	EXP 	rating: autoDraw = True
+322.7850 	DATA 	Mouse: Left button down, pos=(1029,549)
+322.8850 	DATA 	Mouse:  Left button up, pos=(1029,542)
+323.2039 	DATA 	Mouse: Left button down, pos=(1001,408)
+323.2040 	DATA 	RatingScale rating: (mouse response) rating=6
+323.2040 	DATA 	RatingScale rating: rating RT=1.285
+323.2040 	DATA 	RatingScale rating: history=[(None, 0.0), (6, 0.867), (6, 1.285)]
+323.2190 	EXP 	New trial (rep=0, index=78): {'images': u'images/INVk03.bmp', 'condition': u'inverted'}
+323.2246 	EXP 	RatingScale rating: reset()
+323.2356 	EXP 	fixationcross: autoDraw = False
+323.2356 	EXP 	image: autoDraw = False
+323.2356 	EXP 	rating: autoDraw = False
+323.2356 	EXP 	image: image = u'images/INVk03.bmp'
+323.2356 	EXP 	fixationcross: autoDraw = True
+323.3185 	DATA 	Mouse:  Left button up, pos=(1001,408)
+323.7350 	EXP 	fixationcross: autoDraw = False
+324.2515 	EXP 	image: autoDraw = True
+324.3355 	EXP 	image: autoDraw = False
+324.4514 	EXP 	rating: autoDraw = True
+324.9185 	DATA 	Mouse: Left button down, pos=(1036,539)
+325.0018 	DATA 	Mouse:  Left button up, pos=(1036,539)
+325.3516 	DATA 	Mouse: Left button down, pos=(1015,380)
+325.4351 	DATA 	Mouse:  Left button up, pos=(1015,380)
+325.7516 	DATA 	Mouse: Left button down, pos=(1016,401)
+325.7536 	DATA 	RatingScale rating: (mouse response) rating=6
+325.7537 	DATA 	RatingScale rating: rating RT=1.318
+325.7537 	DATA 	RatingScale rating: history=[(None, 0.0), (6, 0.484), (6, 1.318)]
+325.7688 	EXP 	New trial (rep=0, index=79): {'images': u'images/i14.bmp', 'condition': u'scrambled'}
+325.7741 	EXP 	RatingScale rating: reset()
+325.7848 	EXP 	fixationcross: autoDraw = False
+325.7848 	EXP 	image: autoDraw = False
+325.7848 	EXP 	rating: autoDraw = False
+325.7848 	EXP 	image: image = u'images/i14.bmp'
+325.7848 	EXP 	fixationcross: autoDraw = True
+325.8516 	DATA 	Mouse:  Left button up, pos=(1016,401)
+326.2848 	EXP 	fixationcross: autoDraw = False
+326.8017 	EXP 	image: autoDraw = True
+326.8850 	EXP 	image: autoDraw = False
+327.0015 	EXP 	rating: autoDraw = True
+327.6357 	DATA 	Mouse: Left button down, pos=(1026,549)
+327.7018 	DATA 	Mouse:  Left button up, pos=(1026,549)
+328.2682 	DATA 	Mouse: Left button down, pos=(1016,400)
+328.2703 	DATA 	RatingScale rating: (mouse response) rating=6
+328.2704 	DATA 	RatingScale rating: rating RT=1.285
+328.2704 	DATA 	RatingScale rating: history=[(None, 0.0), (6, 0.652), (6, 1.285)]
+328.2854 	EXP 	New trial (rep=0, index=80): {'images': u'images/INVk15.bmp', 'condition': u'inverted'}
+328.2910 	EXP 	RatingScale rating: reset()
+328.3017 	EXP 	fixationcross: autoDraw = False
+328.3017 	EXP 	image: autoDraw = False
+328.3017 	EXP 	rating: autoDraw = False
+328.3017 	EXP 	image: image = u'images/INVk15.bmp'
+328.3017 	EXP 	fixationcross: autoDraw = True
+328.3850 	DATA 	Mouse:  Left button up, pos=(1016,400)
+328.8014 	EXP 	fixationcross: autoDraw = False
+329.3184 	EXP 	image: autoDraw = True
+329.4017 	EXP 	image: autoDraw = False
+329.5183 	EXP 	rating: autoDraw = True
+335.9849 	DATA 	Mouse: Left button down, pos=(1054,539)
+336.1184 	DATA 	Mouse:  Left button up, pos=(1054,539)
+336.8356 	DATA 	Mouse: Left button down, pos=(1027,406)
+336.8381 	DATA 	RatingScale rating: (mouse response) rating=6
+336.8381 	DATA 	RatingScale rating: rating RT=7.336
+336.8381 	DATA 	RatingScale rating: history=[(None, 0.0), (6, 6.484), (6, 7.336)]
+336.8520 	EXP 	New trial (rep=0, index=81): {'images': u'images/i20.bmp', 'condition': u'scrambled'}
+336.8573 	EXP 	RatingScale rating: reset()
+336.8681 	EXP 	fixationcross: autoDraw = False
+336.8681 	EXP 	image: autoDraw = False
+336.8681 	EXP 	rating: autoDraw = False
+336.8681 	EXP 	image: image = u'images/i20.bmp'
+336.8681 	EXP 	fixationcross: autoDraw = True
+336.9849 	DATA 	Mouse:  Left button up, pos=(1027,406)
+337.3680 	EXP 	fixationcross: autoDraw = False
+337.8848 	EXP 	image: autoDraw = True
+337.9681 	EXP 	image: autoDraw = False
+338.0848 	EXP 	rating: autoDraw = True
+351.3184 	DATA 	Mouse: Left button down, pos=(1033,563)
+351.4017 	DATA 	Mouse:  Left button up, pos=(1033,563)
+351.7515 	DATA 	Mouse: Left button down, pos=(972,393)
+351.7535 	DATA 	RatingScale rating: (mouse response) rating=6
+351.7535 	DATA 	RatingScale rating: rating RT=13.685
+351.7535 	DATA 	RatingScale rating: history=[(None, 0.0), (6, 13.251), (6, 13.685)]
+351.7686 	EXP 	New trial (rep=0, index=82): {'images': u'images/k29.bmp', 'condition': u'gestalt'}
+351.7740 	EXP 	RatingScale rating: reset()
+351.7847 	EXP 	fixationcross: autoDraw = False
+351.7847 	EXP 	image: autoDraw = False
+351.7847 	EXP 	rating: autoDraw = False
+351.7847 	EXP 	image: image = u'images/k29.bmp'
+351.7847 	EXP 	fixationcross: autoDraw = True
+351.8350 	DATA 	Mouse:  Left button up, pos=(972,393)
+352.2847 	EXP 	fixationcross: autoDraw = False
+352.8014 	EXP 	image: autoDraw = True
+352.8848 	EXP 	image: autoDraw = False
+353.0016 	EXP 	rating: autoDraw = True
+353.5848 	DATA 	Mouse: Left button down, pos=(982,554)
+353.6681 	DATA 	Mouse:  Left button up, pos=(982,554)
+354.0184 	DATA 	Mouse: Left button down, pos=(1016,402)
+354.0206 	DATA 	RatingScale rating: (mouse response) rating=5
+354.0206 	DATA 	RatingScale rating: rating RT=1.036
+354.0206 	DATA 	RatingScale rating: history=[(None, 0.0), (5, 0.601), (5, 1.036)]
+354.0513 	EXP 	fixationcross: autoDraw = False
+354.0513 	EXP 	image: autoDraw = False
+354.0513 	EXP 	rating: autoDraw = False
+354.0513 	EXP 	instruct2: autoDraw = True
+354.1356 	DATA 	Mouse:  Left button up, pos=(1016,402)
+413.0848 	DATA 	Keypress: space
+413.0873 	EXP 	Imported condNumerosity.csv as conditions, 76 conditions, 3 params
+413.0877 	EXP 	Created sequence: random, trialTypes=76, nReps=1, seed=None
+413.0882 	EXP 	New trial (rep=0, index=0): {'imgB': u'images/i01.bmp', 'imgA': u'images/INVk01.bmp', 'condition': u'Inverted-scrambled'}
+413.1014 	EXP 	instruct2: autoDraw = False
+413.1014 	EXP 	Left: pos = array([ 0.,  0.])
+413.1014 	EXP 	Left: image = u'images/i01.bmp'
+413.1014 	EXP 	Right: pos = array([ 0.,  0.])
+413.1014 	EXP 	Right: image = u'images/INVk01.bmp'
+413.1014 	EXP 	text: autoDraw = True
+414.1180 	EXP 	Left: autoDraw = True
+414.6014 	EXP 	Left: autoDraw = False
+414.6181 	EXP 	Right: autoDraw = True
+415.1011 	EXP 	Right: autoDraw = False
+415.8512 	DATA 	Keypress: left
+415.8522 	EXP 	New trial (rep=0, index=1): {'imgB': u'images/i21.bmp', 'imgA': u'images/k21.bmp', 'condition': u'Gestalt-scrambled'}
+415.8677 	EXP 	text: autoDraw = False
+415.8677 	EXP 	Left: autoDraw = False
+415.8677 	EXP 	Right: autoDraw = False
+415.8677 	EXP 	Left: pos = array([ 0.,  0.])
+415.8677 	EXP 	Left: image = u'images/i21.bmp'
+415.8677 	EXP 	Right: pos = array([ 0.,  0.])
+415.8677 	EXP 	Right: image = u'images/k21.bmp'
+415.8677 	EXP 	text: autoDraw = True
+416.8845 	EXP 	Left: autoDraw = True
+417.3678 	EXP 	Left: autoDraw = False
+417.3847 	EXP 	Right: autoDraw = True
+417.8678 	EXP 	Right: autoDraw = False
+418.3348 	DATA 	Keypress: left
+418.3356 	EXP 	New trial (rep=0, index=2): {'imgB': u'images/i10.bmp', 'imgA': u'images/INVk10.bmp', 'condition': u'Inverted-scrambled'}
+418.3511 	EXP 	text: autoDraw = False
+418.3511 	EXP 	Left: autoDraw = False
+418.3511 	EXP 	Right: autoDraw = False
+418.3511 	EXP 	Left: pos = array([ 0.,  0.])
+418.3511 	EXP 	Left: image = u'images/INVk10.bmp'
+418.3511 	EXP 	Right: pos = array([ 0.,  0.])
+418.3511 	EXP 	Right: image = u'images/i10.bmp'
+418.3511 	EXP 	text: autoDraw = True
+419.3678 	EXP 	Left: autoDraw = True
+419.8511 	EXP 	Left: autoDraw = False
+419.8679 	EXP 	Right: autoDraw = True
+420.3519 	EXP 	Right: autoDraw = False
+420.8846 	DATA 	Keypress: left
+420.8853 	EXP 	New trial (rep=0, index=3): {'imgB': u'images/k01.bmp', 'imgA': u'images/INVk01.bmp', 'condition': u'Inverted-Gestalt'}
+420.9011 	EXP 	text: autoDraw = False
+420.9011 	EXP 	Left: autoDraw = False
+420.9011 	EXP 	Right: autoDraw = False
+420.9011 	EXP 	Left: pos = array([ 0.,  0.])
+420.9011 	EXP 	Left: image = u'images/INVk01.bmp'
+420.9011 	EXP 	Right: pos = array([ 0.,  0.])
+420.9011 	EXP 	Right: image = u'images/k01.bmp'
+420.9011 	EXP 	text: autoDraw = True
+421.9180 	EXP 	Left: autoDraw = True
+422.4011 	EXP 	Left: autoDraw = False
+422.4179 	EXP 	Right: autoDraw = True
+422.9011 	EXP 	Right: autoDraw = False
+423.4520 	DATA 	Keypress: right
+423.4528 	EXP 	New trial (rep=0, index=4): {'imgB': u'images/i05.bmp', 'imgA': u'images/k05.bmp', 'condition': u'Gestalt-scrambled'}
+423.4678 	EXP 	text: autoDraw = False
+423.4678 	EXP 	Left: autoDraw = False
+423.4678 	EXP 	Right: autoDraw = False
+423.4678 	EXP 	Left: pos = array([ 0.,  0.])
+423.4678 	EXP 	Left: image = u'images/i05.bmp'
+423.4678 	EXP 	Right: pos = array([ 0.,  0.])
+423.4678 	EXP 	Right: image = u'images/k05.bmp'
+423.4678 	EXP 	text: autoDraw = True
+424.4845 	EXP 	Left: autoDraw = True
+424.9677 	EXP 	Left: autoDraw = False
+424.9844 	EXP 	Right: autoDraw = True
+425.4678 	EXP 	Right: autoDraw = False
+425.6515 	DATA 	Keypress: left
+425.6522 	EXP 	New trial (rep=0, index=5): {'imgB': u'images/k04.bmp', 'imgA': u'images/INVk04.bmp', 'condition': u'Inverted-Gestalt'}
+425.6678 	EXP 	text: autoDraw = False
+425.6678 	EXP 	Left: autoDraw = False
+425.6678 	EXP 	Right: autoDraw = False
+425.6678 	EXP 	Left: pos = array([ 0.,  0.])
+425.6678 	EXP 	Left: image = u'images/k04.bmp'
+425.6678 	EXP 	Right: pos = array([ 0.,  0.])
+425.6678 	EXP 	Right: image = u'images/INVk04.bmp'
+425.6678 	EXP 	text: autoDraw = True
+426.6844 	EXP 	Left: autoDraw = True
+427.1677 	EXP 	Left: autoDraw = False
+427.1845 	EXP 	Right: autoDraw = True
+427.6677 	EXP 	Right: autoDraw = False
+428.1014 	DATA 	Keypress: right
+428.1022 	EXP 	New trial (rep=0, index=6): {'imgB': u'images/i24.bmp', 'imgA': u'images/k24.bmp', 'condition': u'Gestalt-scrambled'}
+428.1180 	EXP 	text: autoDraw = False
+428.1180 	EXP 	Left: autoDraw = False
+428.1180 	EXP 	Right: autoDraw = False
+428.1180 	EXP 	Left: pos = array([ 0.,  0.])
+428.1180 	EXP 	Left: image = u'images/i24.bmp'
+428.1180 	EXP 	Right: pos = array([ 0.,  0.])
+428.1180 	EXP 	Right: image = u'images/k24.bmp'
+428.1180 	EXP 	text: autoDraw = True
+429.1347 	EXP 	Left: autoDraw = True
+429.6180 	EXP 	Left: autoDraw = False
+429.6347 	EXP 	Right: autoDraw = True
+430.1177 	EXP 	Right: autoDraw = False
+430.4846 	DATA 	Keypress: left
+430.4853 	EXP 	New trial (rep=0, index=7): {'imgB': u'images/k29.bmp', 'imgA': u'images/INVk29.bmp', 'condition': u'Inverted-Gestalt'}
+430.5011 	EXP 	text: autoDraw = False
+430.5011 	EXP 	Left: autoDraw = False
+430.5011 	EXP 	Right: autoDraw = False
+430.5011 	EXP 	Left: pos = array([ 0.,  0.])
+430.5011 	EXP 	Left: image = u'images/INVk29.bmp'
+430.5011 	EXP 	Right: pos = array([ 0.,  0.])
+430.5011 	EXP 	Right: image = u'images/k29.bmp'
+430.5011 	EXP 	text: autoDraw = True
+431.5180 	EXP 	Left: autoDraw = True
+432.0011 	EXP 	Left: autoDraw = False
+432.0180 	EXP 	Right: autoDraw = True
+432.5011 	EXP 	Right: autoDraw = False
+432.7179 	DATA 	Keypress: left
+432.7186 	EXP 	New trial (rep=0, index=8): {'imgB': u'images/i16.bmp', 'imgA': u'images/INVk16.bmp', 'condition': u'Inverted-scrambled'}
+432.7346 	EXP 	text: autoDraw = False
+432.7346 	EXP 	Left: autoDraw = False
+432.7346 	EXP 	Right: autoDraw = False
+432.7346 	EXP 	Left: pos = array([ 0.,  0.])
+432.7346 	EXP 	Left: image = u'images/INVk16.bmp'
+432.7346 	EXP 	Right: pos = array([ 0.,  0.])
+432.7346 	EXP 	Right: image = u'images/i16.bmp'
+432.7346 	EXP 	text: autoDraw = True
+433.7519 	EXP 	Left: autoDraw = True
+434.2346 	EXP 	Left: autoDraw = False
+434.2514 	EXP 	Right: autoDraw = True
+434.7346 	EXP 	Right: autoDraw = False
+435.3180 	DATA 	Keypress: right
+435.3187 	EXP 	New trial (rep=0, index=9): {'imgB': u'images/i21.bmp', 'imgA': u'images/INVk21.bmp', 'condition': u'Inverted-scrambled'}
+435.3346 	EXP 	text: autoDraw = False
+435.3346 	EXP 	Left: autoDraw = False
+435.3346 	EXP 	Right: autoDraw = False
+435.3346 	EXP 	Left: pos = array([ 0.,  0.])
+435.3346 	EXP 	Left: image = u'images/INVk21.bmp'
+435.3346 	EXP 	Right: pos = array([ 0.,  0.])
+435.3346 	EXP 	Right: image = u'images/i21.bmp'
+435.3346 	EXP 	text: autoDraw = True
+436.3518 	EXP 	Left: autoDraw = True
+436.8346 	EXP 	Left: autoDraw = False
+436.8513 	EXP 	Right: autoDraw = True
+437.3346 	EXP 	Right: autoDraw = False
+437.8678 	DATA 	Keypress: right
+437.8685 	EXP 	New trial (rep=0, index=10): {'imgB': u'images/i04.bmp', 'imgA': u'images/INVk04.bmp', 'condition': u'Inverted-scrambled'}
+437.8844 	EXP 	text: autoDraw = False
+437.8844 	EXP 	Left: autoDraw = False
+437.8844 	EXP 	Right: autoDraw = False
+437.8844 	EXP 	Left: pos = array([ 0.,  0.])
+437.8844 	EXP 	Left: image = u'images/INVk04.bmp'
+437.8844 	EXP 	Right: pos = array([ 0.,  0.])
+437.8844 	EXP 	Right: image = u'images/i04.bmp'
+437.8844 	EXP 	text: autoDraw = True
+438.9011 	EXP 	Left: autoDraw = True
+439.3843 	EXP 	Left: autoDraw = False
+439.4011 	EXP 	Right: autoDraw = True
+439.8844 	EXP 	Right: autoDraw = False
+441.4347 	DATA 	Keypress: left
+441.4354 	EXP 	New trial (rep=0, index=11): {'imgB': u'images/i08.bmp', 'imgA': u'images/k08.bmp', 'condition': u'Gestalt-scrambled'}
+441.4518 	EXP 	text: autoDraw = False
+441.4518 	EXP 	Left: autoDraw = False
+441.4518 	EXP 	Right: autoDraw = False
+441.4518 	EXP 	Left: pos = array([ 0.,  0.])
+441.4518 	EXP 	Left: image = u'images/k08.bmp'
+441.4518 	EXP 	Right: pos = array([ 0.,  0.])
+441.4518 	EXP 	Right: image = u'images/i08.bmp'
+441.4518 	EXP 	text: autoDraw = True
+442.4677 	EXP 	Left: autoDraw = True
+442.9512 	EXP 	Left: autoDraw = False
+442.9677 	EXP 	Right: autoDraw = True
+443.4518 	EXP 	Right: autoDraw = False
+443.8181 	DATA 	Keypress: left
+443.8188 	EXP 	New trial (rep=0, index=12): {'imgB': u'images/i23.bmp', 'imgA': u'images/k23.bmp', 'condition': u'Gestalt-scrambled'}
+443.8346 	EXP 	text: autoDraw = False
+443.8346 	EXP 	Left: autoDraw = False
+443.8346 	EXP 	Right: autoDraw = False
+443.8346 	EXP 	Left: pos = array([ 0.,  0.])
+443.8346 	EXP 	Left: image = u'images/k23.bmp'
+443.8346 	EXP 	Right: pos = array([ 0.,  0.])
+443.8346 	EXP 	Right: image = u'images/i23.bmp'
+443.8346 	EXP 	text: autoDraw = True
+444.8518 	EXP 	Left: autoDraw = True
+445.3345 	EXP 	Left: autoDraw = False
+445.3513 	EXP 	Right: autoDraw = True
+445.8346 	EXP 	Right: autoDraw = False
+446.5682 	DATA 	Keypress: left
+446.5851 	EXP 	New trial (rep=0, index=13): {'imgB': u'images/i26.bmp', 'imgA': u'images/INVk26.bmp', 'condition': u'Inverted-scrambled'}
+446.6011 	EXP 	text: autoDraw = False
+446.6011 	EXP 	Left: autoDraw = False
+446.6011 	EXP 	Right: autoDraw = False
+446.6011 	EXP 	Left: pos = array([ 0.,  0.])
+446.6011 	EXP 	Left: image = u'images/INVk26.bmp'
+446.6011 	EXP 	Right: pos = array([ 0.,  0.])
+446.6011 	EXP 	Right: image = u'images/i26.bmp'
+446.6011 	EXP 	text: autoDraw = True
+447.6179 	EXP 	Left: autoDraw = True
+448.1010 	EXP 	Left: autoDraw = False
+448.1179 	EXP 	Right: autoDraw = True
+448.6010 	EXP 	Right: autoDraw = False
+449.1519 	DATA 	Keypress: left
+449.1527 	EXP 	New trial (rep=0, index=14): {'imgB': u'images/i25.bmp', 'imgA': u'images/INVk25.bmp', 'condition': u'Inverted-scrambled'}
+449.1677 	EXP 	text: autoDraw = False
+449.1677 	EXP 	Left: autoDraw = False
+449.1677 	EXP 	Right: autoDraw = False
+449.1677 	EXP 	Left: pos = array([ 0.,  0.])
+449.1677 	EXP 	Left: image = u'images/INVk25.bmp'
+449.1677 	EXP 	Right: pos = array([ 0.,  0.])
+449.1677 	EXP 	Right: image = u'images/i25.bmp'
+449.1677 	EXP 	text: autoDraw = True
+450.1844 	EXP 	Left: autoDraw = True
+450.6676 	EXP 	Left: autoDraw = False
+450.6844 	EXP 	Right: autoDraw = True
+451.1677 	EXP 	Right: autoDraw = False
+452.1347 	DATA 	Keypress: right
+452.1356 	EXP 	New trial (rep=0, index=15): {'imgB': u'images/i02.bmp', 'imgA': u'images/INVk03.bmp', 'condition': u'Inverted-scrambled'}
+452.1512 	EXP 	text: autoDraw = False
+452.1512 	EXP 	Left: autoDraw = False
+452.1512 	EXP 	Right: autoDraw = False
+452.1512 	EXP 	Left: pos = array([ 0.,  0.])
+452.1512 	EXP 	Left: image = u'images/i02.bmp'
+452.1512 	EXP 	Right: pos = array([ 0.,  0.])
+452.1512 	EXP 	Right: image = u'images/INVk03.bmp'
+452.1512 	EXP 	text: autoDraw = True
+453.1677 	EXP 	Left: autoDraw = True
+453.6517 	EXP 	Left: autoDraw = False
+453.6677 	EXP 	Right: autoDraw = True
+454.1517 	EXP 	Right: autoDraw = False
+454.2347 	DATA 	Keypress: left
+454.2354 	EXP 	New trial (rep=0, index=16): {'imgB': u'images/i17.bmp', 'imgA': u'images/k17.bmp', 'condition': u'Gestalt-scrambled'}
+454.2517 	EXP 	text: autoDraw = False
+454.2517 	EXP 	Left: autoDraw = False
+454.2517 	EXP 	Right: autoDraw = False
+454.2517 	EXP 	Left: pos = array([ 0.,  0.])
+454.2517 	EXP 	Left: image = u'images/i17.bmp'
+454.2517 	EXP 	Right: pos = array([ 0.,  0.])
+454.2517 	EXP 	Right: image = u'images/k17.bmp'
+454.2517 	EXP 	text: autoDraw = True
+455.2677 	EXP 	Left: autoDraw = True
+455.7512 	EXP 	Left: autoDraw = False
+455.7677 	EXP 	Right: autoDraw = True
+456.2517 	EXP 	Right: autoDraw = False
+456.7845 	DATA 	Keypress: left
+456.7852 	EXP 	New trial (rep=0, index=17): {'imgB': u'images/i15.bmp', 'imgA': u'images/k15.bmp', 'condition': u'Gestalt-scrambled'}
+456.8009 	EXP 	text: autoDraw = False
+456.8009 	EXP 	Left: autoDraw = False
+456.8009 	EXP 	Right: autoDraw = False
+456.8009 	EXP 	Left: pos = array([ 0.,  0.])
+456.8009 	EXP 	Left: image = u'images/i15.bmp'
+456.8009 	EXP 	Right: pos = array([ 0.,  0.])
+456.8009 	EXP 	Right: image = u'images/k15.bmp'
+456.8009 	EXP 	text: autoDraw = True
+457.8179 	EXP 	Left: autoDraw = True
+458.3010 	EXP 	Left: autoDraw = False
+458.3177 	EXP 	Right: autoDraw = True
+458.8011 	EXP 	Right: autoDraw = False
+459.2844 	DATA 	Keypress: left
+459.2851 	EXP 	New trial (rep=0, index=18): {'imgB': u'images/k16.bmp', 'imgA': u'images/INVk16.bmp', 'condition': u'Inverted-Gestalt'}
+459.3009 	EXP 	text: autoDraw = False
+459.3009 	EXP 	Left: autoDraw = False
+459.3009 	EXP 	Right: autoDraw = False
+459.3009 	EXP 	Left: pos = array([ 0.,  0.])
+459.3009 	EXP 	Left: image = u'images/k16.bmp'
+459.3009 	EXP 	Right: pos = array([ 0.,  0.])
+459.3009 	EXP 	Right: image = u'images/INVk16.bmp'
+459.3009 	EXP 	text: autoDraw = True
+460.3179 	EXP 	Left: autoDraw = True
+460.8009 	EXP 	Left: autoDraw = False
+460.8177 	EXP 	Right: autoDraw = True
+461.3010 	EXP 	Right: autoDraw = False
+461.3523 	DATA 	Keypress: right
+461.3684 	EXP 	New trial (rep=0, index=19): {'imgB': u'images/k27.bmp', 'imgA': u'images/INVk27.bmp', 'condition': u'Inverted-Gestalt'}
+461.3842 	EXP 	text: autoDraw = False
+461.3842 	EXP 	Left: autoDraw = False
+461.3842 	EXP 	Right: autoDraw = False
+461.3842 	EXP 	Left: pos = array([ 0.,  0.])
+461.3842 	EXP 	Left: image = u'images/k27.bmp'
+461.3842 	EXP 	Right: pos = array([ 0.,  0.])
+461.3842 	EXP 	Right: image = u'images/INVk27.bmp'
+461.3842 	EXP 	text: autoDraw = True
+462.4010 	EXP 	Left: autoDraw = True
+462.8843 	EXP 	Left: autoDraw = False
+462.9010 	EXP 	Right: autoDraw = True
+463.3842 	EXP 	Right: autoDraw = False
+463.6844 	DATA 	Keypress: right
+463.6852 	EXP 	New trial (rep=0, index=20): {'imgB': u'images/i18.bmp', 'imgA': u'images/k18.bmp', 'condition': u'Gestalt-scrambled'}
+463.7009 	EXP 	text: autoDraw = False
+463.7009 	EXP 	Left: autoDraw = False
+463.7009 	EXP 	Right: autoDraw = False
+463.7009 	EXP 	Left: pos = array([ 0.,  0.])
+463.7009 	EXP 	Left: image = u'images/k18.bmp'
+463.7009 	EXP 	Right: pos = array([ 0.,  0.])
+463.7009 	EXP 	Right: image = u'images/i18.bmp'
+463.7009 	EXP 	text: autoDraw = True
+464.7179 	EXP 	Left: autoDraw = True
+465.2009 	EXP 	Left: autoDraw = False
+465.2179 	EXP 	Right: autoDraw = True
+465.7009 	EXP 	Right: autoDraw = False
+465.9011 	DATA 	Keypress: left
+465.9018 	EXP 	New trial (rep=0, index=21): {'imgB': u'images/i06.bmp', 'imgA': u'images/INVk06.bmp', 'condition': u'Inverted-scrambled'}
+465.9175 	EXP 	text: autoDraw = False
+465.9175 	EXP 	Left: autoDraw = False
+465.9175 	EXP 	Right: autoDraw = False
+465.9175 	EXP 	Left: pos = array([ 0.,  0.])
+465.9175 	EXP 	Left: image = u'images/i06.bmp'
+465.9175 	EXP 	Right: pos = array([ 0.,  0.])
+465.9175 	EXP 	Right: image = u'images/INVk06.bmp'
+465.9175 	EXP 	text: autoDraw = True
+466.9345 	EXP 	Left: autoDraw = True
+467.4176 	EXP 	Left: autoDraw = False
+467.4345 	EXP 	Right: autoDraw = True
+467.9178 	EXP 	Right: autoDraw = False
+468.1011 	DATA 	Keypress: left
+468.1018 	EXP 	New trial (rep=0, index=22): {'imgB': u'images/i16.bmp', 'imgA': u'images/k16.bmp', 'condition': u'Gestalt-scrambled'}
+468.1175 	EXP 	text: autoDraw = False
+468.1175 	EXP 	Left: autoDraw = False
+468.1175 	EXP 	Right: autoDraw = False
+468.1175 	EXP 	Left: pos = array([ 0.,  0.])
+468.1175 	EXP 	Left: image = u'images/i16.bmp'
+468.1175 	EXP 	Right: pos = array([ 0.,  0.])
+468.1175 	EXP 	Right: image = u'images/k16.bmp'
+468.1175 	EXP 	text: autoDraw = True
+469.1345 	EXP 	Left: autoDraw = True
+469.6178 	EXP 	Left: autoDraw = False
+469.6345 	EXP 	Right: autoDraw = True
+470.1176 	EXP 	Right: autoDraw = False
+470.6180 	DATA 	Keypress: left
+470.6188 	EXP 	New trial (rep=0, index=23): {'imgB': u'images/i30.bmp', 'imgA': u'images/INVk30.bmp', 'condition': u'Inverted-scrambled'}
+470.6342 	EXP 	text: autoDraw = False
+470.6342 	EXP 	Left: autoDraw = False
+470.6342 	EXP 	Right: autoDraw = False
+470.6342 	EXP 	Left: pos = array([ 0.,  0.])
+470.6342 	EXP 	Left: image = u'images/INVk30.bmp'
+470.6342 	EXP 	Right: pos = array([ 0.,  0.])
+470.6342 	EXP 	Right: image = u'images/i30.bmp'
+470.6342 	EXP 	text: autoDraw = True
+471.6517 	EXP 	Left: autoDraw = True
+472.1344 	EXP 	Left: autoDraw = False
+472.1517 	EXP 	Right: autoDraw = True
+472.6344 	EXP 	Right: autoDraw = False
+473.0011 	DATA 	Keypress: right
+473.0018 	EXP 	New trial (rep=0, index=24): {'imgB': u'images/k30.bmp', 'imgA': u'images/INVk30.bmp', 'condition': u'Inverted-Gestalt'}
+473.0176 	EXP 	text: autoDraw = False
+473.0176 	EXP 	Left: autoDraw = False
+473.0176 	EXP 	Right: autoDraw = False
+473.0176 	EXP 	Left: pos = array([ 0.,  0.])
+473.0176 	EXP 	Left: image = u'images/k30.bmp'
+473.0176 	EXP 	Right: pos = array([ 0.,  0.])
+473.0176 	EXP 	Right: image = u'images/INVk30.bmp'
+473.0176 	EXP 	text: autoDraw = True
+474.0345 	EXP 	Left: autoDraw = True
+474.5176 	EXP 	Left: autoDraw = False
+474.5345 	EXP 	Right: autoDraw = True
+475.0178 	EXP 	Right: autoDraw = False
+475.4516 	DATA 	Keypress: left
+475.4524 	EXP 	New trial (rep=0, index=25): {'imgB': u'images/i26.bmp', 'imgA': u'images/k26.bmp', 'condition': u'Gestalt-scrambled'}
+475.4675 	EXP 	text: autoDraw = False
+475.4675 	EXP 	Left: autoDraw = False
+475.4675 	EXP 	Right: autoDraw = False
+475.4675 	EXP 	Left: pos = array([ 0.,  0.])
+475.4675 	EXP 	Left: image = u'images/k26.bmp'
+475.4675 	EXP 	Right: pos = array([ 0.,  0.])
+475.4675 	EXP 	Right: image = u'images/i26.bmp'
+475.4675 	EXP 	text: autoDraw = True
+476.4843 	EXP 	Left: autoDraw = True
+476.9675 	EXP 	Left: autoDraw = False
+476.9842 	EXP 	Right: autoDraw = True
+477.4675 	EXP 	Right: autoDraw = False
+478.0179 	DATA 	Keypress: right
+478.0186 	EXP 	New trial (rep=0, index=26): {'imgB': u'images/k14.bmp', 'imgA': u'images/INVk14.bmp', 'condition': u'Inverted-Gestalt'}
+478.0342 	EXP 	text: autoDraw = False
+478.0342 	EXP 	Left: autoDraw = False
+478.0342 	EXP 	Right: autoDraw = False
+478.0342 	EXP 	Left: pos = array([ 0.,  0.])
+478.0342 	EXP 	Left: image = u'images/k14.bmp'
+478.0342 	EXP 	Right: pos = array([ 0.,  0.])
+478.0342 	EXP 	Right: image = u'images/INVk14.bmp'
+478.0342 	EXP 	text: autoDraw = True
+479.0517 	EXP 	Left: autoDraw = True
+479.5344 	EXP 	Left: autoDraw = False
+479.5511 	EXP 	Right: autoDraw = True
+480.0344 	EXP 	Right: autoDraw = False
+480.0518 	DATA 	Keypress: left
+480.0526 	EXP 	New trial (rep=0, index=27): {'imgB': u'images/i11.bmp', 'imgA': u'images/k11.bmp', 'condition': u'Gestalt-scrambled'}
+480.0675 	EXP 	text: autoDraw = False
+480.0675 	EXP 	Left: autoDraw = False
+480.0675 	EXP 	Right: autoDraw = False
+480.0675 	EXP 	Left: pos = array([ 0.,  0.])
+480.0675 	EXP 	Left: image = u'images/i11.bmp'
+480.0675 	EXP 	Right: pos = array([ 0.,  0.])
+480.0675 	EXP 	Right: image = u'images/k11.bmp'
+480.0675 	EXP 	text: autoDraw = True
+481.0842 	EXP 	Left: autoDraw = True
+481.5675 	EXP 	Left: autoDraw = False
+481.5843 	EXP 	Right: autoDraw = True
+482.0675 	EXP 	Right: autoDraw = False
+482.4180 	DATA 	Keypress: left
+482.4188 	EXP 	New trial (rep=0, index=28): {'imgB': u'images/i24.bmp', 'imgA': u'images/INVk24.bmp', 'condition': u'Inverted-scrambled'}
+482.4341 	EXP 	text: autoDraw = False
+482.4341 	EXP 	Left: autoDraw = False
+482.4341 	EXP 	Right: autoDraw = False
+482.4341 	EXP 	Left: pos = array([ 0.,  0.])
+482.4341 	EXP 	Left: image = u'images/i24.bmp'
+482.4341 	EXP 	Right: pos = array([ 0.,  0.])
+482.4341 	EXP 	Right: image = u'images/INVk24.bmp'
+482.4341 	EXP 	text: autoDraw = True
+483.4517 	EXP 	Left: autoDraw = True
+483.9344 	EXP 	Left: autoDraw = False
+483.9512 	EXP 	Right: autoDraw = True
+484.4350 	EXP 	Right: autoDraw = False
+485.0010 	DATA 	Keypress: left
+485.0017 	EXP 	New trial (rep=0, index=29): {'imgB': u'images/i06.bmp', 'imgA': u'images/k06.bmp', 'condition': u'Gestalt-scrambled'}
+485.0176 	EXP 	text: autoDraw = False
+485.0176 	EXP 	Left: autoDraw = False
+485.0176 	EXP 	Right: autoDraw = False
+485.0176 	EXP 	Left: pos = array([ 0.,  0.])
+485.0176 	EXP 	Left: image = u'images/k06.bmp'
+485.0176 	EXP 	Right: pos = array([ 0.,  0.])
+485.0176 	EXP 	Right: image = u'images/i06.bmp'
+485.0176 	EXP 	text: autoDraw = True
+486.0345 	EXP 	Left: autoDraw = True
+486.5175 	EXP 	Left: autoDraw = False
+486.5345 	EXP 	Right: autoDraw = True
+487.0177 	EXP 	Right: autoDraw = False
+488.0345 	DATA 	Keypress: right
+488.0352 	EXP 	New trial (rep=0, index=30): {'imgB': u'images/i19.bmp', 'imgA': u'images/k19.bmp', 'condition': u'Gestalt-scrambled'}
+488.0508 	EXP 	text: autoDraw = False
+488.0508 	EXP 	Left: autoDraw = False
+488.0508 	EXP 	Right: autoDraw = False
+488.0508 	EXP 	Left: pos = array([ 0.,  0.])
+488.0508 	EXP 	Left: image = u'images/k19.bmp'
+488.0508 	EXP 	Right: pos = array([ 0.,  0.])
+488.0508 	EXP 	Right: image = u'images/i19.bmp'
+488.0508 	EXP 	text: autoDraw = True
+489.0675 	EXP 	Left: autoDraw = True
+489.5516 	EXP 	Left: autoDraw = False
+489.5676 	EXP 	Right: autoDraw = True
+490.0516 	EXP 	Right: autoDraw = False
+490.6345 	DATA 	Keypress: right
+490.6352 	EXP 	New trial (rep=0, index=31): {'imgB': u'images/i15.bmp', 'imgA': u'images/INVk15.bmp', 'condition': u'Inverted-scrambled'}
+490.6508 	EXP 	text: autoDraw = False
+490.6508 	EXP 	Left: autoDraw = False
+490.6508 	EXP 	Right: autoDraw = False
+490.6508 	EXP 	Left: pos = array([ 0.,  0.])
+490.6508 	EXP 	Left: image = u'images/INVk15.bmp'
+490.6508 	EXP 	Right: pos = array([ 0.,  0.])
+490.6508 	EXP 	Right: image = u'images/i15.bmp'
+490.6508 	EXP 	text: autoDraw = True
+491.6675 	EXP 	Left: autoDraw = True
+492.1516 	EXP 	Left: autoDraw = False
+492.1675 	EXP 	Right: autoDraw = True
+492.6516 	EXP 	Right: autoDraw = False
+493.0012 	DATA 	Keypress: left
+493.0019 	EXP 	New trial (rep=0, index=32): {'imgB': u'images/k25.bmp', 'imgA': u'images/INVk25.bmp', 'condition': u'Inverted-Gestalt'}
+493.0174 	EXP 	text: autoDraw = False
+493.0174 	EXP 	Left: autoDraw = False
+493.0174 	EXP 	Right: autoDraw = False
+493.0174 	EXP 	Left: pos = array([ 0.,  0.])
+493.0174 	EXP 	Left: image = u'images/INVk25.bmp'
+493.0174 	EXP 	Right: pos = array([ 0.,  0.])
+493.0174 	EXP 	Right: image = u'images/k25.bmp'
+493.0174 	EXP 	text: autoDraw = True
+494.0344 	EXP 	Left: autoDraw = True
+494.5177 	EXP 	Left: autoDraw = False
+494.5344 	EXP 	Right: autoDraw = True
+495.0175 	EXP 	Right: autoDraw = False
+495.3345 	DATA 	Keypress: left
+495.3352 	EXP 	New trial (rep=0, index=33): {'imgB': u'images/i10.bmp', 'imgA': u'images/k10.bmp', 'condition': u'Gestalt-scrambled'}
+495.3508 	EXP 	text: autoDraw = False
+495.3508 	EXP 	Left: autoDraw = False
+495.3508 	EXP 	Right: autoDraw = False
+495.3508 	EXP 	Left: pos = array([ 0.,  0.])
+495.3508 	EXP 	Left: image = u'images/i10.bmp'
+495.3508 	EXP 	Right: pos = array([ 0.,  0.])
+495.3508 	EXP 	Right: image = u'images/k10.bmp'
+495.3508 	EXP 	text: autoDraw = True
+496.3676 	EXP 	Left: autoDraw = True
+496.8516 	EXP 	Left: autoDraw = False
+496.8675 	EXP 	Right: autoDraw = True
+497.3510 	EXP 	Right: autoDraw = False
+497.7010 	DATA 	Keypress: left
+497.7017 	EXP 	New trial (rep=0, index=34): {'imgB': u'images/i14.bmp', 'imgA': u'images/INVk14.bmp', 'condition': u'Inverted-scrambled'}
+497.7175 	EXP 	text: autoDraw = False
+497.7175 	EXP 	Left: autoDraw = False
+497.7175 	EXP 	Right: autoDraw = False
+497.7175 	EXP 	Left: pos = array([ 0.,  0.])
+497.7175 	EXP 	Left: image = u'images/INVk14.bmp'
+497.7175 	EXP 	Right: pos = array([ 0.,  0.])
+497.7175 	EXP 	Right: image = u'images/i14.bmp'
+497.7175 	EXP 	text: autoDraw = True
+498.7344 	EXP 	Left: autoDraw = True
+499.2175 	EXP 	Left: autoDraw = False
+499.2344 	EXP 	Right: autoDraw = True
+499.7177 	EXP 	Right: autoDraw = False
+500.4009 	DATA 	Keypress: right
+500.4016 	EXP 	New trial (rep=0, index=35): {'imgB': u'images/k12.bmp', 'imgA': u'images/INVk12.bmp', 'condition': u'Inverted-Gestalt'}
+500.4175 	EXP 	text: autoDraw = False
+500.4175 	EXP 	Left: autoDraw = False
+500.4175 	EXP 	Right: autoDraw = False
+500.4175 	EXP 	Left: pos = array([ 0.,  0.])
+500.4175 	EXP 	Left: image = u'images/INVk12.bmp'
+500.4175 	EXP 	Right: pos = array([ 0.,  0.])
+500.4175 	EXP 	Right: image = u'images/k12.bmp'
+500.4175 	EXP 	text: autoDraw = True
+501.4344 	EXP 	Left: autoDraw = True
+501.9176 	EXP 	Left: autoDraw = False
+501.9344 	EXP 	Right: autoDraw = True
+502.4175 	EXP 	Right: autoDraw = False
+502.9676 	DATA 	Keypress: right
+502.9683 	EXP 	New trial (rep=0, index=36): {'imgB': u'images/i03.bmp', 'imgA': u'images/k03.bmp', 'condition': u'Gestalt-scrambled'}
+502.9842 	EXP 	text: autoDraw = False
+502.9842 	EXP 	Left: autoDraw = False
+502.9842 	EXP 	Right: autoDraw = False
+502.9842 	EXP 	Left: pos = array([ 0.,  0.])
+502.9842 	EXP 	Left: image = u'images/i03.bmp'
+502.9842 	EXP 	Right: pos = array([ 0.,  0.])
+502.9842 	EXP 	Right: image = u'images/k03.bmp'
+502.9842 	EXP 	text: autoDraw = True
+504.0009 	EXP 	Left: autoDraw = True
+504.4841 	EXP 	Left: autoDraw = False
+504.5009 	EXP 	Right: autoDraw = True
+504.9840 	EXP 	Right: autoDraw = False
+505.2511 	DATA 	Keypress: right
+505.2518 	EXP 	New trial (rep=0, index=37): {'imgB': u'images/k02.bmp', 'imgA': u'images/INVk03.bmp', 'condition': u'Inverted-Gestalt'}
+505.2674 	EXP 	text: autoDraw = False
+505.2674 	EXP 	Left: autoDraw = False
+505.2674 	EXP 	Right: autoDraw = False
+505.2674 	EXP 	Left: pos = array([ 0.,  0.])
+505.2674 	EXP 	Left: image = u'images/INVk03.bmp'
+505.2674 	EXP 	Right: pos = array([ 0.,  0.])
+505.2674 	EXP 	Right: image = u'images/k02.bmp'
+505.2674 	EXP 	text: autoDraw = True
+506.2842 	EXP 	Left: autoDraw = True
+506.7674 	EXP 	Left: autoDraw = False
+506.7841 	EXP 	Right: autoDraw = True
+507.2674 	EXP 	Right: autoDraw = False
+507.2676 	DATA 	Keypress: right
+509.3176 	DATA 	Keypress: left
+509.3183 	EXP 	New trial (rep=0, index=38): {'imgB': u'images/i07.bmp', 'imgA': u'images/k07.bmp', 'condition': u'Gestalt-scrambled'}
+509.3341 	EXP 	text: autoDraw = False
+509.3341 	EXP 	Left: autoDraw = False
+509.3341 	EXP 	Right: autoDraw = False
+509.3341 	EXP 	Left: pos = array([ 0.,  0.])
+509.3341 	EXP 	Left: image = u'images/i07.bmp'
+509.3341 	EXP 	Right: pos = array([ 0.,  0.])
+509.3341 	EXP 	Right: image = u'images/k07.bmp'
+509.3341 	EXP 	text: autoDraw = True
+510.3510 	EXP 	Left: autoDraw = True
+510.8341 	EXP 	Left: autoDraw = False
+510.8510 	EXP 	Right: autoDraw = True
+511.3343 	EXP 	Right: autoDraw = False
+511.5511 	DATA 	Keypress: left
+511.5518 	EXP 	New trial (rep=0, index=39): {'imgB': u'images/k15.bmp', 'imgA': u'images/INVk15.bmp', 'condition': u'Inverted-Gestalt'}
+511.5674 	EXP 	text: autoDraw = False
+511.5674 	EXP 	Left: autoDraw = False
+511.5674 	EXP 	Right: autoDraw = False
+511.5674 	EXP 	Left: pos = array([ 0.,  0.])
+511.5674 	EXP 	Left: image = u'images/INVk15.bmp'
+511.5674 	EXP 	Right: pos = array([ 0.,  0.])
+511.5674 	EXP 	Right: image = u'images/k15.bmp'
+511.5674 	EXP 	text: autoDraw = True
+512.5841 	EXP 	Left: autoDraw = True
+513.0682 	EXP 	Left: autoDraw = False
+513.0842 	EXP 	Right: autoDraw = True
+513.5682 	EXP 	Right: autoDraw = False
+513.8683 	DATA 	Keypress: left
+513.8691 	EXP 	New trial (rep=0, index=40): {'imgB': u'images/i28.bmp', 'imgA': u'images/INVk28.bmp', 'condition': u'Inverted-scrambled'}
+513.8841 	EXP 	text: autoDraw = False
+513.8841 	EXP 	Left: autoDraw = False
+513.8841 	EXP 	Right: autoDraw = False
+513.8841 	EXP 	Left: pos = array([ 0.,  0.])
+513.8841 	EXP 	Left: image = u'images/i28.bmp'
+513.8841 	EXP 	Right: pos = array([ 0.,  0.])
+513.8841 	EXP 	Right: image = u'images/INVk28.bmp'
+513.8841 	EXP 	text: autoDraw = True
+514.9007 	EXP 	Left: autoDraw = True
+515.3841 	EXP 	Left: autoDraw = False
+515.4008 	EXP 	Right: autoDraw = True
+515.8840 	EXP 	Right: autoDraw = False
+516.4344 	DATA 	Keypress: right
+516.4352 	EXP 	New trial (rep=0, index=41): {'imgB': u'images/i27.bmp', 'imgA': u'images/INVk27.bmp', 'condition': u'Inverted-scrambled'}
+516.4508 	EXP 	text: autoDraw = False
+516.4508 	EXP 	Left: autoDraw = False
+516.4508 	EXP 	Right: autoDraw = False
+516.4508 	EXP 	Left: pos = array([ 0.,  0.])
+516.4508 	EXP 	Left: image = u'images/i27.bmp'
+516.4508 	EXP 	Right: pos = array([ 0.,  0.])
+516.4508 	EXP 	Right: image = u'images/INVk27.bmp'
+516.4508 	EXP 	text: autoDraw = True
+517.4676 	EXP 	Left: autoDraw = True
+517.9509 	EXP 	Left: autoDraw = False
+517.9682 	EXP 	Right: autoDraw = True
+518.4509 	EXP 	Right: autoDraw = False
+518.5842 	DATA 	Keypress: left
+518.5849 	EXP 	New trial (rep=0, index=42): {'imgB': u'images/k23.bmp', 'imgA': u'images/INVk23.bmp', 'condition': u'Inverted-Gestalt'}
+518.6008 	EXP 	text: autoDraw = False
+518.6008 	EXP 	Left: autoDraw = False
+518.6008 	EXP 	Right: autoDraw = False
+518.6008 	EXP 	Left: pos = array([ 0.,  0.])
+518.6008 	EXP 	Left: image = u'images/INVk23.bmp'
+518.6008 	EXP 	Right: pos = array([ 0.,  0.])
+518.6008 	EXP 	Right: image = u'images/k23.bmp'
+518.6008 	EXP 	text: autoDraw = True
+519.6174 	EXP 	Left: autoDraw = True
+520.1007 	EXP 	Left: autoDraw = False
+520.1175 	EXP 	Right: autoDraw = True
+520.6007 	EXP 	Right: autoDraw = False
+520.6683 	DATA 	Keypress: left
+520.6691 	EXP 	New trial (rep=0, index=43): {'imgB': u'images/i01.bmp', 'imgA': u'images/k01.bmp', 'condition': u'Gestalt-scrambled'}
+520.6840 	EXP 	text: autoDraw = False
+520.6840 	EXP 	Left: autoDraw = False
+520.6840 	EXP 	Right: autoDraw = False
+520.6840 	EXP 	Left: pos = array([ 0.,  0.])
+520.6840 	EXP 	Left: image = u'images/i01.bmp'
+520.6840 	EXP 	Right: pos = array([ 0.,  0.])
+520.6840 	EXP 	Right: image = u'images/k01.bmp'
+520.6840 	EXP 	text: autoDraw = True
+521.7007 	EXP 	Left: autoDraw = True
+522.1840 	EXP 	Left: autoDraw = False
+522.2008 	EXP 	Right: autoDraw = True
+522.6840 	EXP 	Right: autoDraw = False
+523.0511 	DATA 	Keypress: left
+523.0518 	EXP 	New trial (rep=0, index=44): {'imgB': u'images/i27.bmp', 'imgA': u'images/k27.bmp', 'condition': u'Gestalt-scrambled'}
+523.0674 	EXP 	text: autoDraw = False
+523.0674 	EXP 	Left: autoDraw = False
+523.0674 	EXP 	Right: autoDraw = False
+523.0674 	EXP 	Left: pos = array([ 0.,  0.])
+523.0674 	EXP 	Left: image = u'images/k27.bmp'
+523.0674 	EXP 	Right: pos = array([ 0.,  0.])
+523.0674 	EXP 	Right: image = u'images/i27.bmp'
+523.0674 	EXP 	text: autoDraw = True
+524.0841 	EXP 	Left: autoDraw = True
+524.5681 	EXP 	Left: autoDraw = False
+524.5841 	EXP 	Right: autoDraw = True
+525.0681 	EXP 	Right: autoDraw = False
+525.4175 	DATA 	Keypress: left
+525.4182 	EXP 	New trial (rep=0, index=45): {'imgB': u'images/i25.bmp', 'imgA': u'images/k25.bmp', 'condition': u'Gestalt-scrambled'}
+525.4341 	EXP 	text: autoDraw = False
+525.4341 	EXP 	Left: autoDraw = False
+525.4341 	EXP 	Right: autoDraw = False
+525.4341 	EXP 	Left: pos = array([ 0.,  0.])
+525.4341 	EXP 	Left: image = u'images/i25.bmp'
+525.4341 	EXP 	Right: pos = array([ 0.,  0.])
+525.4341 	EXP 	Right: image = u'images/k25.bmp'
+525.4341 	EXP 	text: autoDraw = True
+526.4510 	EXP 	Left: autoDraw = True
+526.9340 	EXP 	Left: autoDraw = False
+526.9510 	EXP 	Right: autoDraw = True
+527.4342 	EXP 	Right: autoDraw = False
+527.6342 	DATA 	Keypress: left
+527.6349 	EXP 	New trial (rep=0, index=46): {'imgB': u'images/k09.bmp', 'imgA': u'images/INVk09.bmp', 'condition': u'Inverted-Gestalt'}
+527.6507 	EXP 	text: autoDraw = False
+527.6507 	EXP 	Left: autoDraw = False
+527.6507 	EXP 	Right: autoDraw = False
+527.6507 	EXP 	Left: pos = array([ 0.,  0.])
+527.6507 	EXP 	Left: image = u'images/INVk09.bmp'
+527.6507 	EXP 	Right: pos = array([ 0.,  0.])
+527.6507 	EXP 	Right: image = u'images/k09.bmp'
+527.6507 	EXP 	text: autoDraw = True
+528.6676 	EXP 	Left: autoDraw = True
+529.1509 	EXP 	Left: autoDraw = False
+529.1682 	EXP 	Right: autoDraw = True
+529.6509 	EXP 	Right: autoDraw = False
+529.8510 	DATA 	Keypress: left
+529.8518 	EXP 	New trial (rep=0, index=47): {'imgB': u'images/k26.bmp', 'imgA': u'images/INVk26.bmp', 'condition': u'Inverted-Gestalt'}
+529.8674 	EXP 	text: autoDraw = False
+529.8674 	EXP 	Left: autoDraw = False
+529.8674 	EXP 	Right: autoDraw = False
+529.8674 	EXP 	Left: pos = array([ 0.,  0.])
+529.8674 	EXP 	Left: image = u'images/k26.bmp'
+529.8674 	EXP 	Right: pos = array([ 0.,  0.])
+529.8674 	EXP 	Right: image = u'images/INVk26.bmp'
+529.8674 	EXP 	text: autoDraw = True
+530.8841 	EXP 	Left: autoDraw = True
+531.3677 	EXP 	Left: autoDraw = False
+531.3841 	EXP 	Right: autoDraw = True
+531.8681 	EXP 	Right: autoDraw = False
+532.2175 	DATA 	Keypress: left
+532.2182 	EXP 	New trial (rep=0, index=48): {'imgB': u'images/i29.bmp', 'imgA': u'images/INVk29.bmp', 'condition': u'Inverted-scrambled'}
+532.2340 	EXP 	text: autoDraw = False
+532.2340 	EXP 	Left: autoDraw = False
+532.2340 	EXP 	Right: autoDraw = False
+532.2340 	EXP 	Left: pos = array([ 0.,  0.])
+532.2340 	EXP 	Left: image = u'images/i29.bmp'
+532.2340 	EXP 	Right: pos = array([ 0.,  0.])
+532.2340 	EXP 	Right: image = u'images/INVk29.bmp'
+532.2340 	EXP 	text: autoDraw = True
+533.2509 	EXP 	Left: autoDraw = True
+533.7340 	EXP 	Left: autoDraw = False
+533.7509 	EXP 	Right: autoDraw = True
+534.2342 	EXP 	Right: autoDraw = False
+534.4682 	DATA 	Keypress: right
+534.4690 	EXP 	New trial (rep=0, index=49): {'imgB': u'images/k28.bmp', 'imgA': u'images/INVk28.bmp', 'condition': u'Inverted-Gestalt'}
+534.4840 	EXP 	text: autoDraw = False
+534.4840 	EXP 	Left: autoDraw = False
+534.4840 	EXP 	Right: autoDraw = False
+534.4840 	EXP 	Left: pos = array([ 0.,  0.])
+534.4840 	EXP 	Left: image = u'images/INVk28.bmp'
+534.4840 	EXP 	Right: pos = array([ 0.,  0.])
+534.4840 	EXP 	Right: image = u'images/k28.bmp'
+534.4840 	EXP 	text: autoDraw = True
+535.5007 	EXP 	Left: autoDraw = True
+535.9839 	EXP 	Left: autoDraw = False
+536.0007 	EXP 	Right: autoDraw = True
+536.4840 	EXP 	Right: autoDraw = False
+536.6008 	DATA 	Keypress: left
+536.6015 	EXP 	New trial (rep=0, index=50): {'imgB': u'images/i09.bmp', 'imgA': u'images/INVk09.bmp', 'condition': u'Inverted-scrambled'}
+536.6173 	EXP 	text: autoDraw = False
+536.6173 	EXP 	Left: autoDraw = False
+536.6173 	EXP 	Right: autoDraw = False
+536.6173 	EXP 	Left: pos = array([ 0.,  0.])
+536.6173 	EXP 	Left: image = u'images/i09.bmp'
+536.6173 	EXP 	Right: pos = array([ 0.,  0.])
+536.6173 	EXP 	Right: image = u'images/INVk09.bmp'
+536.6173 	EXP 	text: autoDraw = True
+537.6342 	EXP 	Left: autoDraw = True
+538.1173 	EXP 	Left: autoDraw = False
+538.1341 	EXP 	Right: autoDraw = True
+538.6173 	EXP 	Right: autoDraw = False
+539.2343 	DATA 	Keypress: left
+539.2351 	EXP 	New trial (rep=0, index=51): {'imgB': u'images/i23.bmp', 'imgA': u'images/INVk23.bmp', 'condition': u'Inverted-scrambled'}
+539.2509 	EXP 	text: autoDraw = False
+539.2509 	EXP 	Left: autoDraw = False
+539.2509 	EXP 	Right: autoDraw = False
+539.2509 	EXP 	Left: pos = array([ 0.,  0.])
+539.2509 	EXP 	Left: image = u'images/INVk23.bmp'
+539.2509 	EXP 	Right: pos = array([ 0.,  0.])
+539.2509 	EXP 	Right: image = u'images/i23.bmp'
+539.2509 	EXP 	text: autoDraw = True
+540.2681 	EXP 	Left: autoDraw = True
+540.7508 	EXP 	Left: autoDraw = False
+540.7678 	EXP 	Right: autoDraw = True
+541.2514 	EXP 	Right: autoDraw = False
+541.2841 	DATA 	Keypress: right
+541.2848 	EXP 	New trial (rep=0, index=52): {'imgB': u'images/i28.bmp', 'imgA': u'images/k28.bmp', 'condition': u'Gestalt-scrambled'}
+541.3006 	EXP 	text: autoDraw = False
+541.3006 	EXP 	Left: autoDraw = False
+541.3006 	EXP 	Right: autoDraw = False
+541.3006 	EXP 	Left: pos = array([ 0.,  0.])
+541.3006 	EXP 	Left: image = u'images/k28.bmp'
+541.3006 	EXP 	Right: pos = array([ 0.,  0.])
+541.3006 	EXP 	Right: image = u'images/i28.bmp'
+541.3006 	EXP 	text: autoDraw = True
+542.3173 	EXP 	Left: autoDraw = True
+542.8006 	EXP 	Left: autoDraw = False
+542.8174 	EXP 	Right: autoDraw = True
+543.2677 	DATA 	Keypress: left
+543.3006 	EXP 	Right: autoDraw = False
+545.0007 	DATA 	Keypress: left
+545.0014 	EXP 	New trial (rep=0, index=53): {'imgB': u'images/k06.bmp', 'imgA': u'images/INVk06.bmp', 'condition': u'Inverted-Gestalt'}
+545.0173 	EXP 	text: autoDraw = False
+545.0173 	EXP 	Left: autoDraw = False
+545.0173 	EXP 	Right: autoDraw = False
+545.0173 	EXP 	Left: pos = array([ 0.,  0.])
+545.0173 	EXP 	Left: image = u'images/k06.bmp'
+545.0173 	EXP 	Right: pos = array([ 0.,  0.])
+545.0173 	EXP 	Right: image = u'images/INVk06.bmp'
+545.0173 	EXP 	text: autoDraw = True
+546.0342 	EXP 	Left: autoDraw = True
+546.5173 	EXP 	Left: autoDraw = False
+546.5340 	EXP 	Right: autoDraw = True
+547.0173 	EXP 	Right: autoDraw = False
+547.4007 	DATA 	Keypress: left
+547.4014 	EXP 	New trial (rep=0, index=54): {'imgB': u'images/k21.bmp', 'imgA': u'images/INVk21.bmp', 'condition': u'Inverted-Gestalt'}
+547.4173 	EXP 	text: autoDraw = False
+547.4173 	EXP 	Left: autoDraw = False
+547.4173 	EXP 	Right: autoDraw = False
+547.4173 	EXP 	Left: pos = array([ 0.,  0.])
+547.4173 	EXP 	Left: image = u'images/k21.bmp'
+547.4173 	EXP 	Right: pos = array([ 0.,  0.])
+547.4173 	EXP 	Right: image = u'images/INVk21.bmp'
+547.4173 	EXP 	text: autoDraw = True
+548.4340 	EXP 	Left: autoDraw = True
+548.9175 	EXP 	Left: autoDraw = False
+548.9342 	EXP 	Right: autoDraw = True
+549.4173 	EXP 	Right: autoDraw = False
+549.7514 	DATA 	Keypress: left
+549.7520 	EXP 	New trial (rep=0, index=55): {'imgB': u'images/k05.bmp', 'imgA': u'images/INVk05.bmp', 'condition': u'Inverted-Gestalt'}
+549.7681 	EXP 	text: autoDraw = False
+549.7681 	EXP 	Left: autoDraw = False
+549.7681 	EXP 	Right: autoDraw = False
+549.7681 	EXP 	Left: pos = array([ 0.,  0.])
+549.7681 	EXP 	Left: image = u'images/INVk05.bmp'
+549.7681 	EXP 	Right: pos = array([ 0.,  0.])
+549.7681 	EXP 	Right: image = u'images/k05.bmp'
+549.7681 	EXP 	text: autoDraw = True
+550.7840 	EXP 	Left: autoDraw = True
+551.2680 	EXP 	Left: autoDraw = False
+551.2840 	EXP 	Right: autoDraw = True
+551.7675 	EXP 	Right: autoDraw = False
+552.1841 	DATA 	Keypress: left
+552.1847 	EXP 	New trial (rep=0, index=56): {'imgB': u'images/i22.bmp', 'imgA': u'images/INVk22.bmp', 'condition': u'Inverted-scrambled'}
+552.2006 	EXP 	text: autoDraw = False
+552.2006 	EXP 	Left: autoDraw = False
+552.2006 	EXP 	Right: autoDraw = False
+552.2006 	EXP 	Left: pos = array([ 0.,  0.])
+552.2006 	EXP 	Left: image = u'images/INVk22.bmp'
+552.2006 	EXP 	Right: pos = array([ 0.,  0.])
+552.2006 	EXP 	Right: image = u'images/i22.bmp'
+552.2006 	EXP 	text: autoDraw = True
+553.2173 	EXP 	Left: autoDraw = True
+553.7005 	EXP 	Left: autoDraw = False
+553.7173 	EXP 	Right: autoDraw = True
+554.2005 	EXP 	Right: autoDraw = False
+554.3509 	DATA 	Keypress: left
+554.3517 	EXP 	New trial (rep=0, index=57): {'imgB': u'images/i09.bmp', 'imgA': u'images/k09.bmp', 'condition': u'Gestalt-scrambled'}
+554.3675 	EXP 	text: autoDraw = False
+554.3675 	EXP 	Left: autoDraw = False
+554.3675 	EXP 	Right: autoDraw = False
+554.3675 	EXP 	Left: pos = array([ 0.,  0.])
+554.3675 	EXP 	Left: image = u'images/k09.bmp'
+554.3675 	EXP 	Right: pos = array([ 0.,  0.])
+554.3675 	EXP 	Right: image = u'images/i09.bmp'
+554.3675 	EXP 	text: autoDraw = True
+555.3839 	EXP 	Left: autoDraw = True
+555.8674 	EXP 	Left: autoDraw = False
+555.8839 	EXP 	Right: autoDraw = True
+556.3680 	EXP 	Right: autoDraw = False
+556.6841 	DATA 	Keypress: left
+556.6847 	EXP 	New trial (rep=0, index=58): {'imgB': u'images/i29.bmp', 'imgA': u'images/k29.bmp', 'condition': u'Gestalt-scrambled'}
+556.7006 	EXP 	text: autoDraw = False
+556.7006 	EXP 	Left: autoDraw = False
+556.7006 	EXP 	Right: autoDraw = False
+556.7006 	EXP 	Left: pos = array([ 0.,  0.])
+556.7006 	EXP 	Left: image = u'images/i29.bmp'
+556.7006 	EXP 	Right: pos = array([ 0.,  0.])
+556.7006 	EXP 	Right: image = u'images/k29.bmp'
+556.7006 	EXP 	text: autoDraw = True
+557.7173 	EXP 	Left: autoDraw = True
+558.2006 	EXP 	Left: autoDraw = False
+558.2173 	EXP 	Right: autoDraw = True
+558.7005 	EXP 	Right: autoDraw = False
+558.7682 	DATA 	Keypress: left
+558.7690 	EXP 	New trial (rep=0, index=59): {'imgB': u'images/i30.bmp', 'imgA': u'images/k30.bmp', 'condition': u'Gestalt-scrambled'}
+558.7840 	EXP 	text: autoDraw = False
+558.7840 	EXP 	Left: autoDraw = False
+558.7840 	EXP 	Right: autoDraw = False
+558.7840 	EXP 	Left: pos = array([ 0.,  0.])
+558.7840 	EXP 	Left: image = u'images/i30.bmp'
+558.7840 	EXP 	Right: pos = array([ 0.,  0.])
+558.7840 	EXP 	Right: image = u'images/k30.bmp'
+558.7840 	EXP 	text: autoDraw = True
+559.8006 	EXP 	Left: autoDraw = True
+560.2839 	EXP 	Left: autoDraw = False
+560.3005 	EXP 	Right: autoDraw = True
+560.7838 	EXP 	Right: autoDraw = False
+561.1340 	DATA 	Keypress: left
+561.1347 	EXP 	New trial (rep=0, index=60): {'imgB': u'images/k19.bmp', 'imgA': u'images/INVk19.bmp', 'condition': u'Inverted-Gestalt'}
+561.1507 	EXP 	text: autoDraw = False
+561.1507 	EXP 	Left: autoDraw = False
+561.1507 	EXP 	Right: autoDraw = False
+561.1507 	EXP 	Left: pos = array([ 0.,  0.])
+561.1507 	EXP 	Left: image = u'images/INVk19.bmp'
+561.1507 	EXP 	Right: pos = array([ 0.,  0.])
+561.1507 	EXP 	Right: image = u'images/k19.bmp'
+561.1507 	EXP 	text: autoDraw = True
+562.1680 	EXP 	Left: autoDraw = True
+562.6508 	EXP 	Left: autoDraw = False
+562.6675 	EXP 	Right: autoDraw = True
+563.1508 	EXP 	Right: autoDraw = False
+563.3840 	DATA 	Keypress: right
+563.3847 	EXP 	New trial (rep=0, index=61): {'imgB': u'images/i22.bmp', 'imgA': u'images/k22.bmp', 'condition': u'Gestalt-scrambled'}
+563.4006 	EXP 	text: autoDraw = False
+563.4006 	EXP 	Left: autoDraw = False
+563.4006 	EXP 	Right: autoDraw = False
+563.4006 	EXP 	Left: pos = array([ 0.,  0.])
+563.4006 	EXP 	Left: image = u'images/k22.bmp'
+563.4006 	EXP 	Right: pos = array([ 0.,  0.])
+563.4006 	EXP 	Right: image = u'images/i22.bmp'
+563.4006 	EXP 	text: autoDraw = True
+564.4173 	EXP 	Left: autoDraw = True
+564.9005 	EXP 	Left: autoDraw = False
+564.9173 	EXP 	Right: autoDraw = True
+565.4005 	EXP 	Right: autoDraw = False
+565.5681 	DATA 	Keypress: right
+565.5689 	EXP 	New trial (rep=0, index=62): {'imgB': u'images/i12.bmp', 'imgA': u'images/INVk12.bmp', 'condition': u'Inverted-scrambled'}
+565.5839 	EXP 	text: autoDraw = False
+565.5839 	EXP 	Left: autoDraw = False
+565.5839 	EXP 	Right: autoDraw = False
+565.5839 	EXP 	Left: pos = array([ 0.,  0.])
+565.5839 	EXP 	Left: image = u'images/INVk12.bmp'
+565.5839 	EXP 	Right: pos = array([ 0.,  0.])
+565.5839 	EXP 	Right: image = u'images/i12.bmp'
+565.5839 	EXP 	text: autoDraw = True
+566.6006 	EXP 	Left: autoDraw = True
+567.0838 	EXP 	Left: autoDraw = False
+567.1005 	EXP 	Right: autoDraw = True
+567.5839 	EXP 	Right: autoDraw = False
+569.9840 	DATA 	Keypress: left
+569.9846 	EXP 	New trial (rep=0, index=63): {'imgB': u'images/i05.bmp', 'imgA': u'images/INVk05.bmp', 'condition': u'Inverted-scrambled'}
+570.0005 	EXP 	text: autoDraw = False
+570.0005 	EXP 	Left: autoDraw = False
+570.0005 	EXP 	Right: autoDraw = False
+570.0005 	EXP 	Left: pos = array([ 0.,  0.])
+570.0005 	EXP 	Left: image = u'images/i05.bmp'
+570.0005 	EXP 	Right: pos = array([ 0.,  0.])
+570.0005 	EXP 	Right: image = u'images/INVk05.bmp'
+570.0005 	EXP 	text: autoDraw = True
+571.0173 	EXP 	Left: autoDraw = True
+571.5004 	EXP 	Left: autoDraw = False
+571.5173 	EXP 	Right: autoDraw = True
+572.0004 	EXP 	Right: autoDraw = False
+572.1513 	DATA 	Keypress: left
+572.1682 	EXP 	New trial (rep=0, index=64): {'imgB': u'images/i02.bmp', 'imgA': u'images/k02.bmp', 'condition': u'Gestalt-scrambled'}
+572.1839 	EXP 	text: autoDraw = False
+572.1839 	EXP 	Left: autoDraw = False
+572.1839 	EXP 	Right: autoDraw = False
+572.1839 	EXP 	Left: pos = array([ 0.,  0.])
+572.1839 	EXP 	Left: image = u'images/i02.bmp'
+572.1839 	EXP 	Right: pos = array([ 0.,  0.])
+572.1839 	EXP 	Right: image = u'images/k02.bmp'
+572.1839 	EXP 	text: autoDraw = True
+573.2005 	EXP 	Left: autoDraw = True
+573.6839 	EXP 	Left: autoDraw = False
+573.7005 	EXP 	Right: autoDraw = True
+574.1008 	DATA 	Keypress: right
+574.1838 	EXP 	Right: autoDraw = False
+576.5508 	DATA 	Keypress: right
+576.5515 	EXP 	New trial (rep=0, index=65): {'imgB': u'images/i04.bmp', 'imgA': u'images/k04.bmp', 'condition': u'Gestalt-scrambled'}
+576.5674 	EXP 	text: autoDraw = False
+576.5674 	EXP 	Left: autoDraw = False
+576.5674 	EXP 	Right: autoDraw = False
+576.5674 	EXP 	Left: pos = array([ 0.,  0.])
+576.5674 	EXP 	Left: image = u'images/i04.bmp'
+576.5674 	EXP 	Right: pos = array([ 0.,  0.])
+576.5674 	EXP 	Right: image = u'images/k04.bmp'
+576.5674 	EXP 	text: autoDraw = True
+577.5839 	EXP 	Left: autoDraw = True
+578.0674 	EXP 	Left: autoDraw = False
+578.0839 	EXP 	Right: autoDraw = True
+578.5679 	EXP 	Right: autoDraw = False
+578.6681 	DATA 	Keypress: left
+578.6688 	EXP 	New trial (rep=0, index=66): {'imgB': u'images/k10.bmp', 'imgA': u'images/INVk10.bmp', 'condition': u'Inverted-Gestalt'}
+578.6839 	EXP 	text: autoDraw = False
+578.6839 	EXP 	Left: autoDraw = False
+578.6839 	EXP 	Right: autoDraw = False
+578.6839 	EXP 	Left: pos = array([ 0.,  0.])
+578.6839 	EXP 	Left: image = u'images/INVk10.bmp'
+578.6839 	EXP 	Right: pos = array([ 0.,  0.])
+578.6839 	EXP 	Right: image = u'images/k10.bmp'
+578.6839 	EXP 	text: autoDraw = True
+579.7005 	EXP 	Left: autoDraw = True
+580.1838 	EXP 	Left: autoDraw = False
+580.2005 	EXP 	Right: autoDraw = True
+580.6838 	EXP 	Right: autoDraw = False
+580.9839 	DATA 	Keypress: left
+580.9846 	EXP 	New trial (rep=0, index=67): {'imgB': u'images/i14.bmp', 'imgA': u'images/k14.bmp', 'condition': u'Gestalt-scrambled'}
+581.0005 	EXP 	text: autoDraw = False
+581.0005 	EXP 	Left: autoDraw = False
+581.0005 	EXP 	Right: autoDraw = False
+581.0005 	EXP 	Left: pos = array([ 0.,  0.])
+581.0005 	EXP 	Left: image = u'images/k14.bmp'
+581.0005 	EXP 	Right: pos = array([ 0.,  0.])
+581.0005 	EXP 	Right: image = u'images/i14.bmp'
+581.0005 	EXP 	text: autoDraw = True
+582.0172 	EXP 	Left: autoDraw = True
+582.5004 	EXP 	Left: autoDraw = False
+582.5172 	EXP 	Right: autoDraw = True
+583.0005 	EXP 	Right: autoDraw = False
+583.3173 	DATA 	Keypress: right
+583.3180 	EXP 	New trial (rep=0, index=68): {'imgB': u'images/i19.bmp', 'imgA': u'images/INVk19.bmp', 'condition': u'Inverted-scrambled'}
+583.3338 	EXP 	text: autoDraw = False
+583.3338 	EXP 	Left: autoDraw = False
+583.3338 	EXP 	Right: autoDraw = False
+583.3338 	EXP 	Left: pos = array([ 0.,  0.])
+583.3338 	EXP 	Left: image = u'images/i19.bmp'
+583.3338 	EXP 	Right: pos = array([ 0.,  0.])
+583.3338 	EXP 	Right: image = u'images/INVk19.bmp'
+583.3338 	EXP 	text: autoDraw = True
+584.3508 	EXP 	Left: autoDraw = True
+584.8338 	EXP 	Left: autoDraw = False
+584.8507 	EXP 	Right: autoDraw = True
+585.3340 	EXP 	Right: autoDraw = False
+585.5172 	DATA 	Keypress: right
+585.5179 	EXP 	New trial (rep=0, index=69): {'imgB': u'images/k18.bmp', 'imgA': u'images/INVk18.bmp', 'condition': u'Inverted-Gestalt'}
+585.5340 	EXP 	text: autoDraw = False
+585.5340 	EXP 	Left: autoDraw = False
+585.5340 	EXP 	Right: autoDraw = False
+585.5340 	EXP 	Left: pos = array([ 0.,  0.])
+585.5340 	EXP 	Left: image = u'images/INVk18.bmp'
+585.5340 	EXP 	Right: pos = array([ 0.,  0.])
+585.5340 	EXP 	Right: image = u'images/k18.bmp'
+585.5340 	EXP 	text: autoDraw = True
+586.5507 	EXP 	Left: autoDraw = True
+587.0340 	EXP 	Left: autoDraw = False
+587.0507 	EXP 	Right: autoDraw = True
+587.5338 	EXP 	Right: autoDraw = False
+587.8342 	DATA 	Keypress: left
+587.8349 	EXP 	New trial (rep=0, index=70): {'imgB': u'images/k24.bmp', 'imgA': u'images/INVk24.bmp', 'condition': u'Inverted-Gestalt'}
+587.8507 	EXP 	text: autoDraw = False
+587.8507 	EXP 	Left: autoDraw = False
+587.8507 	EXP 	Right: autoDraw = False
+587.8507 	EXP 	Left: pos = array([ 0.,  0.])
+587.8507 	EXP 	Left: image = u'images/INVk24.bmp'
+587.8507 	EXP 	Right: pos = array([ 0.,  0.])
+587.8507 	EXP 	Right: image = u'images/k24.bmp'
+587.8507 	EXP 	text: autoDraw = True
+588.8679 	EXP 	Left: autoDraw = True
+589.3507 	EXP 	Left: autoDraw = False
+589.3674 	EXP 	Right: autoDraw = True
+589.8507 	EXP 	Right: autoDraw = False
+590.2173 	DATA 	Keypress: left
+590.2180 	EXP 	New trial (rep=0, index=71): {'imgB': u'images/k22.bmp', 'imgA': u'images/INVk22.bmp', 'condition': u'Inverted-Gestalt'}
+590.2338 	EXP 	text: autoDraw = False
+590.2338 	EXP 	Left: autoDraw = False
+590.2338 	EXP 	Right: autoDraw = False
+590.2338 	EXP 	Left: pos = array([ 0.,  0.])
+590.2338 	EXP 	Left: image = u'images/k22.bmp'
+590.2338 	EXP 	Right: pos = array([ 0.,  0.])
+590.2338 	EXP 	Right: image = u'images/INVk22.bmp'
+590.2338 	EXP 	text: autoDraw = True
+591.2507 	EXP 	Left: autoDraw = True
+591.7338 	EXP 	Left: autoDraw = False
+591.7507 	EXP 	Right: autoDraw = True
+592.2340 	EXP 	Right: autoDraw = False
+592.4839 	DATA 	Keypress: right
+592.4846 	EXP 	New trial (rep=0, index=72): {'imgB': u'images/i12.bmp', 'imgA': u'images/k12.bmp', 'condition': u'Gestalt-scrambled'}
+592.5004 	EXP 	text: autoDraw = False
+592.5004 	EXP 	Left: autoDraw = False
+592.5004 	EXP 	Right: autoDraw = False
+592.5004 	EXP 	Left: pos = array([ 0.,  0.])
+592.5004 	EXP 	Left: image = u'images/i12.bmp'
+592.5004 	EXP 	Right: pos = array([ 0.,  0.])
+592.5004 	EXP 	Right: image = u'images/k12.bmp'
+592.5004 	EXP 	text: autoDraw = True
+593.5172 	EXP 	Left: autoDraw = True
+594.0004 	EXP 	Left: autoDraw = False
+594.0172 	EXP 	Right: autoDraw = True
+594.5004 	EXP 	Right: autoDraw = False
+595.0174 	DATA 	Keypress: right
+595.0181 	EXP 	New trial (rep=0, index=73): {'imgB': u'images/i20.bmp', 'imgA': u'images/k20.bmp', 'condition': u'Gestalt-scrambled'}
+595.0340 	EXP 	text: autoDraw = False
+595.0340 	EXP 	Left: autoDraw = False
+595.0340 	EXP 	Right: autoDraw = False
+595.0340 	EXP 	Left: pos = array([ 0.,  0.])
+595.0340 	EXP 	Left: image = u'images/i20.bmp'
+595.0340 	EXP 	Right: pos = array([ 0.,  0.])
+595.0340 	EXP 	Right: image = u'images/k20.bmp'
+595.0340 	EXP 	text: autoDraw = True
+596.0507 	EXP 	Left: autoDraw = True
+596.5340 	EXP 	Left: autoDraw = False
+596.5507 	EXP 	Right: autoDraw = True
+597.0338 	EXP 	Right: autoDraw = False
+597.3341 	DATA 	Keypress: left
+597.3348 	EXP 	New trial (rep=0, index=74): {'imgB': u'images/i13.bmp', 'imgA': u'images/k13.bmp', 'condition': u'Gestalt-scrambled'}
+597.3507 	EXP 	text: autoDraw = False
+597.3507 	EXP 	Left: autoDraw = False
+597.3507 	EXP 	Right: autoDraw = False
+597.3507 	EXP 	Left: pos = array([ 0.,  0.])
+597.3507 	EXP 	Left: image = u'images/k13.bmp'
+597.3507 	EXP 	Right: pos = array([ 0.,  0.])
+597.3507 	EXP 	Right: image = u'images/i13.bmp'
+597.3507 	EXP 	text: autoDraw = True
+598.3679 	EXP 	Left: autoDraw = True
+598.8506 	EXP 	Left: autoDraw = False
+598.8679 	EXP 	Right: autoDraw = True
+599.3512 	EXP 	Right: autoDraw = False
+599.7172 	DATA 	Keypress: right
+599.7179 	EXP 	New trial (rep=0, index=75): {'imgB': u'images/i18.bmp', 'imgA': u'images/INVk18.bmp', 'condition': u'Inverted-scrambled'}
+599.7340 	EXP 	text: autoDraw = False
+599.7340 	EXP 	Left: autoDraw = False
+599.7340 	EXP 	Right: autoDraw = False
+599.7340 	EXP 	Left: pos = array([ 0.,  0.])
+599.7340 	EXP 	Left: image = u'images/i18.bmp'
+599.7340 	EXP 	Right: pos = array([ 0.,  0.])
+599.7340 	EXP 	Right: image = u'images/INVk18.bmp'
+599.7340 	EXP 	text: autoDraw = True
+600.7507 	EXP 	Left: autoDraw = True
+601.2337 	EXP 	Left: autoDraw = False
+601.2507 	EXP 	Right: autoDraw = True
+601.7339 	EXP 	Right: autoDraw = False
+602.0674 	DATA 	Keypress: left
+602.0837 	EXP 	text: autoDraw = False
+602.0837 	EXP 	Left: autoDraw = False
+602.0837 	EXP 	Right: autoDraw = False
+602.0837 	EXP 	feedback: autoDraw = True
+621.1340 	DATA 	Keypress: escape
